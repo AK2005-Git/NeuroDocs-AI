@@ -1,0 +1,470 @@
+[
+    {
+        "chunk_id": 0,
+        "source_file": "AK NS",
+        "chunk_text": "CASE STUDY \nThe WannaCry Ransomware Attack \n(2017) \nCourse Name: Network Security \nSubject Code: CCS354 \n \n \n \n \n \n   By, \n    Abdul Kareem K \n   (312823243001) \nB.Tech AI&DS, \n3rd Year",
+        "chunk_length": 185
+    },
+    {
+        "chunk_id": 1,
+        "source_file": "AK NS",
+        "chunk_text": "The WannaCry Ransomware Attack \n      (May 2017) \n \nAbstract \nThe WannaCry ransomware attack in May 2017 was a major global cyberattack that \naffected thousands of computers worldwide. It exploited a vulnerability in Microsoft \nWindows called EternalBlue to spread quickly across networks. The attack encrypted \nuser data and demanded ransom payment in Bitcoin. Many important organizations, \nincluding the UK’s National Health Service, were seriously affected. This case study \nbriefly explains how the attack occurred, its impact, and the key cybersecurity lessons \nlearned. It emphasizes the importance of regular system updates and strong security \npractices to prevent similar attacks. \nIntroduction \nOverview of the WannaCry Ransomware Attack",
+        "chunk_length": 748
+    },
+    {
+        "chunk_id": 2,
+        "source_file": "AK NS",
+        "chunk_text": "practices to prevent similar attacks. \nIntroduction \nOverview of the WannaCry Ransomware Attack \nThe WannaCry ransomware attack in May 2017 was a major global cyberattack that \naffected hundreds of thousands of computers across more than 150 countries. It targeted \nMicrosoft Windows systems by exploiting the EternalBlue vulnerability, which was \noriginally developed by the U.S. National Security Agency and later leaked. WannaCry \nfunctioned as a cryptoworm, allowing it to spread automatically across networks without \nuser interaction. Once infected, systems had their data encrypted and were presented \nwith a ransom demand in Bitcoin. Critical organizations, including the UK’s National \nHealth Service (NHS), were severely disrupted, highlighting serious weaknesses in",
+        "chunk_length": 776
+    },
+    {
+        "chunk_id": 3,
+        "source_file": "AK NS",
+        "chunk_text": "Health Service (NHS), were severely disrupted, highlighting serious weaknesses in \ncybersecurity preparedness worldwide.",
+        "chunk_length": 120
+    },
+    {
+        "chunk_id": 4,
+        "source_file": "AK NS",
+        "chunk_text": "Importance of Cybersecurity Case Studies \nCybersecurity case studies are essential for understanding real-world cyber threats and \ntheir impacts. They help analyze how attacks occur, identify exploited vulnerabilities, and \nevaluate the effectiveness of security measures. The WannaCry attack is an important \ncase study because it demonstrates how unpatched systems and poor vulnerability \nmanagement can lead to widespread damage. Studying such incidents improves \nawareness, strengthens defensive strategies, and supports better decision-making in \ncybersecurity planning and risk management. \nObjectives and Scope of the Study \nThe objective of this case study is to analyze the WannaCry ransomware attack, focusing",
+        "chunk_length": 719
+    },
+    {
+        "chunk_id": 5,
+        "source_file": "AK NS",
+        "chunk_text": "The objective of this case study is to analyze the WannaCry ransomware attack, focusing \non its causes, methods of propagation, and consequences. It aims to highlight key \ncybersecurity failures and lessons learned from the incident. The scope of the study is \nlimited to the WannaCry attack of May 2017, emphasizing its technical and organizational \nimpact rather than legal or forensic aspects. This study is intended to enhance academic \nunderstanding of ransomware threats and cybersecurity resilience. \nWhy Ransomware Is Used in the Current World \n Ransomware is widely used in the current world because it is a highly profitable \nand low-risk cybercrime for attackers. The rapid growth of digital systems, cloud",
+        "chunk_length": 718
+    },
+    {
+        "chunk_id": 6,
+        "source_file": "AK NS",
+        "chunk_text": "and low-risk cybercrime for attackers. The rapid growth of digital systems, cloud \nservices, and online data storage has increased the number of potential targets, \nincluding individuals, businesses, hospitals, and government organizations.  \n Many organizations depend heavily on digital data for daily operations, making \nthem more likely to pay ransom to quickly restore access. The use of \ncryptocurrencies such as Bitcoin enables attackers to receive payments \nanonymously, reducing the chances of being traced.  \n In addition, weak cybersecurity practices, delayed software updates, and the \ncontinued use of legacy systems increase vulnerability to ransomware attacks. \nThe availability of Ransomware-as-a-Service (RaaS) has further simplified the",
+        "chunk_length": 756
+    },
+    {
+        "chunk_id": 7,
+        "source_file": "AK NS",
+        "chunk_text": "The availability of Ransomware-as-a-Service (RaaS) has further simplified the \nprocess, allowing even non-technical criminals to launch attacks.  \n As a result, ransomware has become one of the most effective and commonly \nused cyber threats in the modern digital world. \nCybersecurity and Modern Threats \nCybersecurity is the protection of computers, networks, and data from cyberattacks and \nunauthorized access. It helps to keep information safe from threats such as viruses, \nmalware, ransomware, and hacking. Cybersecurity ensures that digital systems work \nsafely and reliably. \n Growth of Digital Infrastructure",
+        "chunk_length": 620
+    },
+    {
+        "chunk_id": 8,
+        "source_file": "AK NS",
+        "chunk_text": "Digital infrastructure has grown rapidly due to the use of the internet, cloud \nservices, online banking, and smart devices. Many services now depend on digital \nsystems for daily operations. As digital usage increases, the need to protect these \nsystems also becomes more important.  \n Rise of Global Cyber Attacks  \nGlobal cyberattacks have increased with the growth of digital technology. Attackers \ntarget organizations, governments, and individuals to steal data or disrupt \nservices. Ransomware attacks, such as WannaCry, show how cyber threats can \nspread quickly and cause serious damage, highlighting the need for strong \ncybersecurity practices. \nTimeline of Ransomware Evolution \n1989 – AIDS Trojan: \nThe first known ransomware attack, AIDS Trojan, demanded victims to send payment",
+        "chunk_length": 793
+    },
+    {
+        "chunk_id": 9,
+        "source_file": "AK NS",
+        "chunk_text": "The first known ransomware attack, AIDS Trojan, demanded victims to send payment \nthrough postal mail to regain access to their systems. \n2005–2010 – Early Screen Lockers: \nDuring this period, ransomware mainly locked user screens and displayed fake security \nor law enforcement warnings to force victims into paying money. \n2013 – CryptoLocker: \nCryptoLocker marked a major shift by using strong encryption and demanding ransom \npayments in Bitcoin, making tracking and recovery difficult. \n2015 – CryptoWall: \nCryptoWall improved encryption techniques and used anonymous payment systems, \nincreasing the success rate of ransomware attacks. \n2016 – Locky: \nLocky spread rapidly through malicious email attachments and macros, showing how \nsocial engineering could enhance ransomware distribution.",
+        "chunk_length": 797
+    },
+    {
+        "chunk_id": 10,
+        "source_file": "AK NS",
+        "chunk_text": "social engineering could enhance ransomware distribution. \n2017 – WannaCry: \nWannaCry used worm-like propagation by exploiting the EternalBlue vulnerability, \ncausing a global outbreak and massive disruptions. \n2018–2020 – Ryuk and Maze: \nThese ransomware strains specifically targeted large enterprises and organizations, \ndemanding higher ransoms and causing operational shutdowns. \n2021–Present – Ransomware-as-a-Service (RaaS): \nRansomware became commercialized, with cybercriminals selling ready-made \nransomware tools to others, increasing attack frequency worldwide.",
+        "chunk_length": 573
+    },
+    {
+        "chunk_id": 11,
+        "source_file": "AK NS",
+        "chunk_text": "Types of Cyber Attacks \n Malware Attacks – Use malicious software such as viruses, worms, and \nransomware to damage systems. \n Phishing Attacks – Trick users into revealing sensitive information through \nfake emails or websites. \n Denial of Service (DoS) Attacks – Overwhelm systems to make services \nunavailable. \n Man-in-the-Middle Attacks – Intercept communication between two parties \nto steal data. \n SQL Injection Attacks – Exploit database vulnerabilities to access or modify \ndata. \n Zero-Day Attacks – Exploit unknown software vulnerabilities before patches \nare available. \nUnderstanding Ransomware \nRansomware is a malicious software designed to block access to computer systems or \nencrypt important files and then demand a ransom payment for their recovery. Attackers",
+        "chunk_length": 786
+    },
+    {
+        "chunk_id": 12,
+        "source_file": "AK NS",
+        "chunk_text": "encrypt important files and then demand a ransom payment for their recovery. Attackers \nusually request payment in cryptocurrencies such as Bitcoin to remain anonymous. \nRansomware attacks commonly spread through phishing emails, malicious downloads, \nand network vulnerabilities. \nOver time, ransomware has evolved from simple file-locking malware into a powerful \ncyber threat capable of spreading automatically across networks. Modern ransomware \ncan target large organizations, disrupt essential services, and cause significant financial \nand operational damage. In some cases, ransomware is used strategically to attack \ncritical infrastructure such as hospitals, transportation systems, and government \nnetworks.",
+        "chunk_length": 718
+    },
+    {
+        "chunk_id": 13,
+        "source_file": "AK NS",
+        "chunk_text": "Background of WannaCry \nOrigin and Discovery \nWannaCry ransomware emerged in May 2017 as a new and highly aggressive cyber \nthreat targeting Microsoft Windows operating systems. It exploited a vulnerability in the \nWindows Server Message Block (SMB) protocol using an exploit known as EternalBlue. \nThis exploit was originally developed by the U.S. National Security Agency (NSA) and \nlater leaked by a hacker group called the Shadow Brokers. Once the vulnerability became \npublic, cybercriminals used it to develop WannaCry, enabling the malware to spread \nrapidly across unpatched systems. The ransomware was first detected when \norganizations began reporting sudden system lockouts and ransom demands. \nTimeline of the Attack (May 2017)",
+        "chunk_length": 739
+    },
+    {
+        "chunk_id": 14,
+        "source_file": "AK NS",
+        "chunk_text": "Timeline of the Attack (May 2017) \nThe WannaCry attack began on May 12, 2017, and spread globally within hours. As the \nransomware propagated automatically, thousands of systems were infected in a very \nshort time. On the same day, security researchers identified a “kill switch” in the malware \ncode, which helped slow down its spread. Despite this, the attack continued to affect \nsystems over the following days, especially those that had not applied recent security \nupdates. Microsoft later released emergency patches to protect unsupported versions of \nWindows, and organizations worldwide began urgent recovery efforts. \n Initial Affected Regions  \nThe initial impact of WannaCry was observed across multiple countries simultaneously,",
+        "chunk_length": 741
+    },
+    {
+        "chunk_id": 15,
+        "source_file": "AK NS",
+        "chunk_text": "The initial impact of WannaCry was observed across multiple countries simultaneously, \nmaking it a truly global cyberattack. Major infections were reported in Europe, Asia, and \nNorth America. The United Kingdom was one of the most severely affected regions, \nparticularly within the National Health Service (NHS), where hospital operations were \ndisrupted. Other heavily affected countries included Spain, Russia, China, and India. The \nwidespread nature of the attack highlighted how interconnected global digital systems \nare and how quickly cyber threats can cross national boundaries.",
+        "chunk_length": 589
+    },
+    {
+        "chunk_id": 16,
+        "source_file": "AK NS",
+        "chunk_text": "Vulnerability Environment \nThe rapid spread of the WannaCry ransomware was largely due to weaknesses in the \nvulnerability environment of affected systems. Many organizations were still using \noutdated Microsoft Windows operating systems that lacked adequate security \nprotections. In addition, critical security updates released by Microsoft were not applied \non time, leaving systems exposed to the EternalBlue exploit. Weak organizational \nsecurity practices, such as poor patch management, limited network monitoring, and lack \nof cybersecurity awareness, further increased the risk of infection. These combined \nvulnerabilities created a favorable environment for WannaCry to spread quickly and \ncause widespread disruption. \nEternalBlue Exploit",
+        "chunk_length": 750
+    },
+    {
+        "chunk_id": 17,
+        "source_file": "AK NS",
+        "chunk_text": "cause widespread disruption. \nEternalBlue Exploit \nEternalBlue is a cyber exploit that targets a vulnerability in Microsoft Windows operating \nsystems. It was originally developed by the U.S. National Security Agency (NSA) for \nintelligence purposes. The exploit allows attackers to remotely execute malicious code \non vulnerable systems without user interaction. When used in attacks like WannaCry, \nEternalBlue enabled rapid and automated infection of unpatched computers.  \n SMB Protocol Vulnerability \nThe exploit takes advantage of a weakness in the Server Message Block (SMB) \nprotocol, which is used for file sharing and communication between systems in a \nnetwork. A flaw in the SMB version 1 (SMBv1) implementation allowed attackers",
+        "chunk_length": 742
+    },
+    {
+        "chunk_id": 18,
+        "source_file": "AK NS",
+        "chunk_text": "network. A flaw in the SMB version 1 (SMBv1) implementation allowed attackers \nto send specially crafted packets to a target system and gain unauthorized access. \nThis vulnerability made it possible for malware to spread quickly across networks. \n Exploit Leakage and Misuse \nIn 2017, EternalBlue was leaked to the public by a hacker group known as the \nShadow Brokers. Once released, cybercriminals began misusing the exploit to \nlaunch large-scale cyberattacks. WannaCry was one of the most notable attacks \nto use EternalBlue, demonstrating how leaked cyber weapons can be repurposed \nfor criminal activities and cause global disruption. \nInfection Mechanism \nThe WannaCry ransomware initially compromised systems by exploiting the EternalBlue",
+        "chunk_length": 747
+    },
+    {
+        "chunk_id": 19,
+        "source_file": "AK NS",
+        "chunk_text": "The WannaCry ransomware initially compromised systems by exploiting the EternalBlue \nvulnerability in unpatched Microsoft Windows machines. Once a vulnerable system was \nidentified, the malware gained unauthorized access without requiring any user action. \nAfter entering the system, WannaCry scanned the local network to identify other \nvulnerable computers. It then used automated exploitation techniques to spread rapidly \nacross connected systems using the SMB protocol. This self-propagating behavior \nallowed the ransomware to infect thousands of machines within a short period, making \ncontainment extremely difficult.",
+        "chunk_length": 625
+    },
+    {
+        "chunk_id": 20,
+        "source_file": "AK NS",
+        "chunk_text": "Worm-Like Propagation \n The WannaCry ransomware exhibited worm-like propagation, meaning it could \nspread automatically from one system to another without requiring user interaction \nsuch as clicking a link or opening an attachment. Once a system was infected, \nWannaCry immediately began searching for other vulnerable computers within the \nsame local network and across connected networks. This self-spreading behavior \nsignificantly increased the speed and reach of the attack. \n WannaCry performed rapid network scanning by sending specially crafted \nrequests through the Windows Server Message Block (SMB) protocol. Systems \nthat had not applied the necessary security patches were easily compromised. \nThe malware used the EternalBlue exploit to gain access and replicate itself on",
+        "chunk_length": 789
+    },
+    {
+        "chunk_id": 21,
+        "source_file": "AK NS",
+        "chunk_text": "The malware used the EternalBlue exploit to gain access and replicate itself on \nnewly discovered vulnerable machines. This automated process allowed the \nransomware to move laterally within organizations, infecting large numbers of \ncomputers in a short time. \n The speed and scale of WannaCry’s spread were unprecedented compared to \nearlier ransomware attacks. Within a few hours, the malware had infected \nhundreds of thousands of systems across multiple countries. Large organizations \nwith interconnected networks were particularly affected, as the ransomware could \nquickly move between departments and systems. \nEncryption Process \n File Encryption Method \nAfter successfully infecting a system, WannaCry initiated the file encryption",
+        "chunk_length": 744
+    },
+    {
+        "chunk_id": 22,
+        "source_file": "AK NS",
+        "chunk_text": "After successfully infecting a system, WannaCry initiated the file encryption \nprocess using advanced cryptographic techniques. The ransomware selectively \nencrypted commonly used file formats, including documents, images, \npresentations, and databases, while avoiding critical system files to ensure the \noperating system remained functional. This approach allowed the malware to keep \nthe system running so that victims could view the ransom message and follow \npayment instructions. The encryption process was fast and difficult to reverse \nwithout the correct decryption key. \n \n Locking of User Data \nOnce encryption was completed, all targeted files became inaccessible to the user. \nWannaCry modified file extensions and stored encryption information within the",
+        "chunk_length": 769
+    },
+    {
+        "chunk_id": 23,
+        "source_file": "AK NS",
+        "chunk_text": "WannaCry modified file extensions and stored encryption information within the \nsystem, making manual recovery extremely difficult. Users were unable to open, \nedit, or transfer their files, effectively locking all important data. This sudden loss \nof access caused panic among users and disrupted normal activities in both \npersonal and organizational environments.",
+        "chunk_length": 366
+    },
+    {
+        "chunk_id": 24,
+        "source_file": "AK NS",
+        "chunk_text": "Impact on System Usability \nAlthough the infected system continued to operate at a basic level, its usability \nwas severely reduced. Essential data required for daily operations was \nunavailable, forcing organizations to suspend services and workflows. A ransom \nnotification appeared on the screen, warning that files would remain permanently \nlocked unless payment was made within a limited time. This situation caused \nfinancial losses, operational delays, and increased pressure on affected \norganizations to respond quickly. \nRansom Demand Strategy \nRansom Message Design \nAfter encrypting user data, WannaCry displayed a ransom message on the infected \nsystem’s screen. The message clearly informed victims that their files had been",
+        "chunk_length": 738
+    },
+    {
+        "chunk_id": 25,
+        "source_file": "AK NS",
+        "chunk_text": "system’s screen. The message clearly informed victims that their files had been \nencrypted and could only be recovered by paying a ransom. It included instructions in \nmultiple languages, making it understandable to users across different regions. The \nmessage also showed a countdown timer, indicating a deadline for payment, which \nincreased urgency and fear among victims. \nBitcoin Payment System \nWannaCry demanded ransom payments exclusively in Bitcoin, a digital cryptocurrency. \nBitcoin was chosen because it allows attackers to receive payments anonymously and \nacross international borders. The ransom amount was fixed and increased if payment \nwas not made within the given time.",
+        "chunk_length": 689
+    },
+    {
+        "chunk_id": 26,
+        "source_file": "AK NS",
+        "chunk_text": "Psychological Pressure Techniques \nThe ransom strategy relied heavily on psychological pressure to force victims into quick \npayment. Threats such as permanent data loss after the deadline created panic and \nstress. The increasing ransom amount and countdown timer added further pressure. In \ncritical environments like hospitals and businesses, the fear of service disruption and data \nloss made victims more likely to consider paying the ransom. These techniques were \ndesigned to exploit emotional responses rather than technical weaknesses. \n \n \nGlobal Impact Analysis \nThe WannaCry ransomware attack had a significant global impact, affecting more than \n150 countries and over 200,000 computer systems. Major countries impacted included",
+        "chunk_length": 741
+    },
+    {
+        "chunk_id": 27,
+        "source_file": "AK NS",
+        "chunk_text": "150 countries and over 200,000 computer systems. Major countries impacted included \nthe United Kingdom, Spain, Russia, China, India, and the United States. Critical sectors \nsuch as healthcare, government offices, banking, transportation, and businesses \nexperienced severe disruptions. In the UK, the National Health Service (NHS) faced \ncancelled appointments, delayed surgeries, and blocked access to patient records. \nThe scale of the attack was unprecedented, with the malware spreading rapidly through \nnetworks using the EternalBlue exploit. Many organizations were unprepared, and \nmissing security updates allowed the ransomware to infect systems quickly. The global \ndisruption demonstrated how cyberattacks could cross borders, affecting interconnected",
+        "chunk_length": 763
+    },
+    {
+        "chunk_id": 28,
+        "source_file": "AK NS",
+        "chunk_text": "disruption demonstrated how cyberattacks could cross borders, affecting interconnected \nnetworks and essential services. The incident highlighted the vulnerabilities in digital \ninfrastructure worldwide and emphasized the urgent need for robust cybersecurity \npractices and international cooperation to prevent similar attacks in the future.",
+        "chunk_length": 341
+    },
+    {
+        "chunk_id": 29,
+        "source_file": "AK NS",
+        "chunk_text": "Impact on Healthcare Sector (NHS) \n NHS Infrastructure Failure \nThe WannaCry attack severely affected NHS IT infrastructure. Many hospital \nsystems, including computers, servers, and network devices, were locked or \ndisabled. Staff were unable to access electronic health records and other essential \nsystems, which disrupted normal hospital operations. The infrastructure failure \nhighlighted the NHS’s reliance on outdated and unpatched software. \n Medical Service Interruptions \nDue to system lockdowns, numerous medical services were interrupted. Non-\nemergency surgeries were canceled, outpatient appointments were delayed, and \ndiagnostic tests could not be accessed. Staff had to revert to manual processes, \nslowing down hospital operations and increasing workloads for healthcare",
+        "chunk_length": 790
+    },
+    {
+        "chunk_id": 30,
+        "source_file": "AK NS",
+        "chunk_text": "slowing down hospital operations and increasing workloads for healthcare \nworkers. \n Risks to Patient Safety \nThe unavailability of patient records and monitoring systems posed serious risks \nto patient safety. Doctors and nurses could not access critical medical histories or \nlab results promptly, which could lead to errors in treatment. Emergency response \ntimes were affected, and patients’ health outcomes were at higher risk, \ndemonstrating how cyberattacks on healthcare systems can directly threaten \nhuman life. \nImpact on Other Sectors \n1. Banking and Finance \nThe WannaCry attack affected banking and financial institutions by disrupting access to \ndigital systems and online services. ATMs, online banking platforms, and internal",
+        "chunk_length": 743
+    },
+    {
+        "chunk_id": 31,
+        "source_file": "AK NS",
+        "chunk_text": "digital systems and online services. ATMs, online banking platforms, and internal \ntransaction systems experienced outages, leading to temporary financial delays. \nAlthough the ransomware did not specifically target financial data, the operational \ndisruption caused inconvenience for customers and added pressure on IT teams to \nrestore services quickly. \n2. Transportation Systems \nTransportation networks were also impacted by the attack. Systems controlling traffic \nsignals, railway scheduling, and airport operations experienced interruptions in some \nregions. Delays in transport services occurred as organizations had to temporarily shut \ndown affected systems to prevent further spread of the malware. The incident highlighted \nthe vulnerability of critical infrastructure to cyberattacks.",
+        "chunk_length": 798
+    },
+    {
+        "chunk_id": 32,
+        "source_file": "AK NS",
+        "chunk_text": "the vulnerability of critical infrastructure to cyberattacks. \n3. Government and Enterprises",
+        "chunk_length": 92
+    },
+    {
+        "chunk_id": 33,
+        "source_file": "AK NS",
+        "chunk_text": "Many government offices and private enterprises faced operational challenges due to \nWannaCry. Internal networks were compromised, causing disruptions in document \nmanagement, email communication, and essential business processes. Some \norganizations had to halt operations temporarily, leading to financial and productivity \nlosses. The attack emphasized the need for regular security updates and strong \ncybersecurity policies across both public and private sectors. \nDetection and Emergency Response \n The WannaCry ransomware attack was \ninitially \ndetected \nwhen \norganizations \nexperienced \nwidespread \nsystem \nslowdowns, file inaccessibility, and ransom \nmessages \nappearing \nacross \nmultiple \ncomputers simultaneously. IT teams and \nsecurity personnel quickly realized that this \nwas \na",
+        "chunk_length": 794
+    },
+    {
+        "chunk_id": 34,
+        "source_file": "AK NS",
+        "chunk_text": "computers simultaneously. IT teams and \nsecurity personnel quickly realized that this \nwas \na \nlarge-scale, \nself-propagating \nmalware attack affecting entire networks. \nRapid detection allowed organizations to \nbegin \nemergency \nmeasures, \nincluding \nnotifying \ncybersecurity \nteams, \ndisconnecting infected systems, and informing relevant authorities. \n To contain the malware, affected systems were immediately isolated from internal \nand external networks to prevent further spread. Firewalls and network filters were \nupdated to block SMB traffic, the protocol exploited by the ransomware. Microsoft \nreleased emergency patches for supported and unsupported versions of Windows \nto secure vulnerable systems, while IT teams focused on securing backup data to",
+        "chunk_length": 764
+    },
+    {
+        "chunk_id": 35,
+        "source_file": "AK NS",
+        "chunk_text": "to secure vulnerable systems, while IT teams focused on securing backup data to \nprevent permanent loss. Temporary manual processes were implemented to \nmaintain essential operations in hospitals, banks, and enterprises while infected \nsystems were cleaned. \nKill Switch Discovery \n Discovery of Kill Switch Domain \nDuring the rapid spread of WannaCry, security researcher Marcus Hutchins \ndiscovered a hidden “kill switch” in the malware’s code. The ransomware checked \nfor a specific, unregistered domain before proceeding with encryption. Hutchins \nregistered this domain, which effectively activated the kill switch and stopped the \nmalware from spreading further on connected systems. \n How It Reduced the Spread",
+        "chunk_length": 719
+    },
+    {
+        "chunk_id": 36,
+        "source_file": "AK NS",
+        "chunk_text": "malware from spreading further on connected systems. \n How It Reduced the Spread \nThe activation of the kill switch significantly slowed down WannaCry’s propagation. \nOnce the domain was registered, infected systems that checked the domain \nstopped executing the encryption process and halted further network scanning. \nThis simple intervention prevented thousands of additional infections and bought \ntime for organizations to apply security patches and protect vulnerable systems.",
+        "chunk_length": 483
+    },
+    {
+        "chunk_id": 37,
+        "source_file": "AK NS",
+        "chunk_text": " Limitations of the Kill Switch \nWhile the kill switch reduced the global impact of the attack, it did not reverse the \ndamage already caused. Systems that had been infected before the domain \nregistration remained locked, and data encrypted by WannaCry could not be \nrecovered without backups or decryption tools. Additionally, modified variants of \nthe ransomware were later observed that bypassed the kill switch, demonstrating \nthat relying solely on such mechanisms is not a comprehensive cybersecurity \nsolution. \nThreat Landscape Before the WannaCry Attack \nPrior to the WannaCry ransomware attack in May 2017, the global cyber threat \nenvironment was already showing clear signs of escalation. Organizations worldwide",
+        "chunk_length": 726
+    },
+    {
+        "chunk_id": 38,
+        "source_file": "AK NS",
+        "chunk_text": "environment was already showing clear signs of escalation. Organizations worldwide \nwere increasingly dependent on digital systems, cloud services, and networked \ninfrastructures to support daily operations. However, cybersecurity readiness did not \nkeep pace with this rapid technological expansion. Many institutions continued to operate \nlegacy systems that were no longer supported or regularly updated, creating widespread \nsecurity gaps. \nRansomware attacks existed before WannaCry, but they were generally limited in scope \nand relied heavily on social engineering techniques such as phishing emails or malicious \nattachments. Large-scale, self-propagating ransomware that could spread automatically \nacross networks was not widely anticipated. Security patch management was often",
+        "chunk_length": 787
+    },
+    {
+        "chunk_id": 39,
+        "source_file": "AK NS",
+        "chunk_text": "across networks was not widely anticipated. Security patch management was often \ndelayed due to operational concerns, lack of awareness, or insufficient IT resources. \nAdditionally, employee understanding of cyber risks remained low, increasing exposure \nto malware infections. This combination of outdated systems, weak preventive controls, \nand limited preparedness created a vulnerable digital environment, allowing WannaCry \nto spread rapidly and cause unprecedented global disruption. \nRole of Cybersecurity Community \n1. Ethical Hackers \nEthical hackers, also called white-hat hackers, were instrumental in slowing down \nthe WannaCry attack. By analyzing the malware code, they discovered the hidden \nkill switch domain that halted the ransomware’s propagation. Their proactive",
+        "chunk_length": 783
+    },
+    {
+        "chunk_id": 40,
+        "source_file": "AK NS",
+        "chunk_text": "kill switch domain that halted the ransomware’s propagation. Their proactive \napproach prevented further infections and provided guidance to organizations on \nimmediate containment measures. \n2. Security Researchers \nSecurity researchers studied WannaCry’s technical structure, including its \nencryption methods, propagation techniques, and vulnerabilities in the SMB \nprotocol. Their work helped organizations understand the malware’s behavior and \napply necessary defenses, such as patching systems and isolating networks. \n3. Collaborative Defense",
+        "chunk_length": 550
+    },
+    {
+        "chunk_id": 41,
+        "source_file": "AK NS",
+        "chunk_text": "The cybersecurity community worked collectively, sharing intelligence across \nsectors and borders. Collaboration allowed rapid identification of affected systems \nand facilitated coordinated response efforts. Joint initiatives between private \nsecurity firms, universities, and government agencies enhanced global awareness \nof the attack. \n4. Open Intelligence Sharing \nOpen sharing of technical reports, advisories, and mitigation strategies enabled \norganizations worldwide to act quickly. By distributing detailed analysis of the \nransomware and security recommendations, the cybersecurity community \nreduced the potential impact and guided recovery efforts. \nRole of Governments \n1. National Cyber Policies",
+        "chunk_length": 711
+    },
+    {
+        "chunk_id": 42,
+        "source_file": "AK NS",
+        "chunk_text": "Role of Governments \n1. National Cyber Policies \nGovernments implemented existing cyber policies to protect critical infrastructure. \nThese policies guided hospitals, banks, and public services to prioritize urgent \nupdates and risk mitigation. The attack highlighted gaps in national preparedness \nfor fast-spreading malware. \n2. Emergency Advisories \nNational authorities issued emergency alerts to organizations and the public, \ndetailing the ransomware threat and steps to secure vulnerable systems. These \nadvisories played a crucial role in limiting infections and guiding immediate \nresponse measures. \n3. Digital Defense Strategies \nGovernment agencies deployed digital defense strategies including monitoring \ncritical systems, coordinating with cybersecurity teams, and securing networks.",
+        "chunk_length": 798
+    },
+    {
+        "chunk_id": 43,
+        "source_file": "AK NS",
+        "chunk_text": "critical systems, coordinating with cybersecurity teams, and securing networks. \nThese strategies aimed to contain the malware, prevent further spread, and \nprotect essential services. \n \n4. Cyber Law Enforcement \nLaw enforcement agencies investigated the attack, traced the ransomware’s \norigin, and worked with international partners to identify potential perpetrators. \nCoordinated cyber law enforcement demonstrated the importance of cross-border \ncollaboration in tackling global cyber threats. \nRole of Technology Corporations \n1. Vendor Responsibility \nTechnology vendors, particularly Microsoft, were responsible for providing security \npatches and guidance. Their rapid response in releasing emergency updates for",
+        "chunk_length": 722
+    },
+    {
+        "chunk_id": 44,
+        "source_file": "AK NS",
+        "chunk_text": "supported and unsupported systems was crucial in limiting the spread of \nWannaCry. \n2. Emergency Patching \nThe quick distribution of security patches allowed organizations to secure \nvulnerable systems. This case emphasized the importance of timely updates and \nvendor communication to prevent large-scale damage. \n3. Legacy System Support \nOrganizations using outdated software were highly vulnerable. Vendors providing \nextended support or emergency patches for legacy systems helped protect older \ninfrastructure from the attack. \n4. Corporate Cyber Ethics \nCorporate responsibility and ethical behavior, such as transparent disclosure of \nvulnerabilities and rapid remediation guidance, were key in minimizing the attack’s",
+        "chunk_length": 726
+    },
+    {
+        "chunk_id": 45,
+        "source_file": "AK NS",
+        "chunk_text": "vulnerabilities and rapid remediation guidance, were key in minimizing the attack’s \nimpact. The incident reinforced the importance of corporate cyber ethics in global \ncybersecurity. \nEthical Dimensions \na. Cyber Weaponization Ethics \nThe use of the EternalBlue exploit, developed by an intelligence agency, raised \nquestions about the ethical use of cyber weapons. Such tools, when leaked, can \ncause unintended global harm. \nb. Responsibility of Intelligence Agencies \nAgencies creating advanced exploits have a responsibility to safeguard them. The \nWannaCry incident highlighted the risks when cyber tools are leaked and misused \nagainst civilian targets. \nc. Civilian Infrastructure Risks \nCritical civilian infrastructure, including hospitals, transport systems, and",
+        "chunk_length": 773
+    },
+    {
+        "chunk_id": 46,
+        "source_file": "AK NS",
+        "chunk_text": "Critical civilian infrastructure, including hospitals, transport systems, and \ngovernment offices, was affected. This demonstrated that cyberattacks on \nintelligence targets can unintentionally harm ordinary people. \nd. Digital Warfare Morality \nThe incident emphasized the moral implications of digital warfare. Attacks that \ndisrupt essential services raise ethical questions about accountability and the \nprotection of human life in cyber conflict. \nLegal Dimensions \na. Cybercrime Law \nNational cybercrime laws define illegal activities, including ransomware attacks, \nand establish penalties for offenders. Effective enforcement is essential to deter \ncybercriminal activity. \nb. International Cyber Law",
+        "chunk_length": 708
+    },
+    {
+        "chunk_id": 47,
+        "source_file": "AK NS",
+        "chunk_text": "Because ransomware attacks often cross borders, international legal frameworks \nare necessary for cooperation, prosecution, and prevention. WannaCry illustrated \nthe need for stronger cross-country cyber legislation. \nc. Digital Sovereignty \nCountries increasingly seek to protect their digital infrastructure and data \nsovereignty. The WannaCry attack underscored the importance of securing \nnational digital assets from external threats. \nEconomic Consequences \n The WannaCry ransomware attack caused widespread economic disruption \nacross multiple sectors worldwide. Organizations faced direct financial losses due \nto system downtime, operational disruption, and emergency cybersecurity \nmeasures.  \n Recovery costs included IT remediation, software updates, forensic investigations,",
+        "chunk_length": 789
+    },
+    {
+        "chunk_id": 48,
+        "source_file": "AK NS",
+        "chunk_text": "measures.  \n Recovery costs included IT remediation, software updates, forensic investigations, \nand temporary staffing to restore normal operations.  \n The attack also led to significant productivity loss, as employees were unable to \naccess critical files and systems, delaying business processes, healthcare \nservices, and government functions. Beyond immediate losses, WannaCry \nprompted long-term investments in cybersecurity infrastructure, staff training, and \npolicy updates.  \n The incident highlighted the hidden economic costs of cyberattacks, including \nreputational damage, reduced customer trust, and long-term operational  \n \n",
+        "chunk_length": 645
+    },
+    {
+        "chunk_id": 49,
+        "source_file": "AK NS",
+        "chunk_text": "Psychological and Social Effects \n1. Public Fear \nThe sudden and widespread nature of the WannaCry attack created fear among \nthe public. People were concerned about the safety of personal and organizational \ndata and the possibility of losing access to critical services. \n2. Digital Trust Erosion \nTrust in digital systems was shaken. Citizens, patients, and customers questioned \nthe reliability of online services, including banking, healthcare, and government \noperations, highlighting the social implications of cyberattacks. \n3. Organizational Stress \nEmployees and management faced increased stress due to operational \ndisruptions, emergency response coordination, and uncertainty regarding data \nrecovery. The attack created high-pressure environments in critical sectors.",
+        "chunk_length": 781
+    },
+    {
+        "chunk_id": 50,
+        "source_file": "AK NS",
+        "chunk_text": "recovery. The attack created high-pressure environments in critical sectors. \n4. Social Perception of Technology \nWannaCry influenced how society perceived technology, with a heightened \nawareness of cybersecurity risks. It prompted discussions about digital \ndependence, infrastructure resilience, and the ethical responsibilities of \norganizations managing sensitive data. \nSecurity Lessons \n1. System Hardening \nThe attack highlighted the importance of securing systems through updated \nsoftware, security patches, and vulnerability management. Hardened systems \nreduce the chances of malware exploitation. \n2. Cyber Hygiene Practices \nRegular practices such as timely patching, software updates, strong password \npolicies, and limiting unnecessary privileges proved essential in reducing attack",
+        "chunk_length": 798
+    },
+    {
+        "chunk_id": 51,
+        "source_file": "AK NS",
+        "chunk_text": "policies, and limiting unnecessary privileges proved essential in reducing attack \nsurfaces. \n3. Security Awareness \nEducating employees about phishing, ransomware threats, and safe computing \nbehavior is critical. Awareness reduces the likelihood of human errors that can \namplify attacks. \n4. Proactive Defense \nProactive strategies, including intrusion detection, continuous monitoring, and \nincident response planning, are crucial. Organizations that implement proactive \ndefenses can detect and contain attacks before widespread damage occurs. \nPreventive Framework",
+        "chunk_length": 570
+    },
+    {
+        "chunk_id": 52,
+        "source_file": "AK NS",
+        "chunk_text": " A strong preventive framework is essential to safeguard organizations from \nransomware attacks like WannaCry. Patch management ensures that all systems, \nincluding legacy software, are regularly updated to fix known vulnerabilities, \nreducing the risk of exploitation.  \n Network segmentation isolates critical systems, limiting the spread of malware if \none part of the network is compromised. Backup architectures—including offline, \nencrypted, and offsite backups—enable organizations to restore important data \nwithout paying ransom.  \n Continuous threat monitoring systems detect unusual network activity, suspicious \nfile behavior, or unauthorized access, allowing early containment of potential \nattacks.",
+        "chunk_length": 715
+    },
+    {
+        "chunk_id": 53,
+        "source_file": "AK NS",
+        "chunk_text": "file behavior, or unauthorized access, allowing early containment of potential \nattacks.  \n Combined with regular security audits, employee training, and incident response \nplanning, this framework strengthens.  \n overall resilience, minimizes downtime, protects sensitive information, and \nenhances the organization’s ability to respond effectively to future cyber threats. \n \n \nAttack Timeline Deep Dive (WannaCry 2017) \nInitial Outbreak and Rapid Escalation \nThe WannaCry ransomware attack began on 12 May 2017, when systems across \nmultiple countries were suddenly infected within hours. The malware exploited a",
+        "chunk_length": 617
+    },
+    {
+        "chunk_id": 54,
+        "source_file": "AK NS",
+        "chunk_text": "vulnerability in the Windows SMB protocol using the EternalBlue exploit, allowing it to \nspread automatically without user interaction. Organizations running unpatched or \noutdated Windows systems were immediately compromised, leading to rapid escalation \nacross networks and geographic regions. \nPeak Infection Period \nWithin the first 24 hours, WannaCry reached its peak infection stage, affecting \nhundreds of thousands of computers in over 150 countries. Critical sectors such as \nhealthcare, transportation, banking, and government services experienced severe \ndisruptions. During this phase, systems were encrypted at scale, ransom messages \nwere displayed, and operational paralysis became widespread, especially in institutions \nlike the UK’s NHS. \nContainment and Decline Phase",
+        "chunk_length": 786
+    },
+    {
+        "chunk_id": 55,
+        "source_file": "AK NS",
+        "chunk_text": "like the UK’s NHS. \nContainment and Decline Phase \nThe spread of WannaCry began to slow after cybersecurity researchers discovered a \nbuilt-in kill switch domain within the malware. Registering this domain significantly \nreduced further propagation of the ransomware. Following this, organizations \nimplemented emergency patching, network isolation, and system shutdowns to contain \nthe threat. Over time, coordinated global response efforts led to the gradual decline of \nthe attack, though recovery and system restoration continued for weeks after the initial \noutbreak. \nTechnical Evolution of Ransomware Leading to WannaCry \nFrom a technical perspective, ransomware evolved significantly before the WannaCry \nattack in 2017. Early ransomware relied on basic system lock mechanisms and simple",
+        "chunk_length": 795
+    },
+    {
+        "chunk_id": 56,
+        "source_file": "AK NS",
+        "chunk_text": "attack in 2017. Early ransomware relied on basic system lock mechanisms and simple \nscripts, which were relatively easy to detect and remove.  \nAs defensive technologies improved, attackers adopted stronger cryptographic \ntechniques such as symmetric and asymmetric encryption to ensure that victim data \ncould not be recovered without a decryption key. \n The integration of public-key cryptography allowed attackers to securely control \ndecryption keys from remote servers. \nA major technical shift occurred when ransomware began exploiting network-level \nvulnerabilities instead of relying on user actions. WannaCry represented a critical \nmilestone by combining ransomware payloads with worm-like propagation capabilities.",
+        "chunk_length": 725
+    },
+    {
+        "chunk_id": 57,
+        "source_file": "AK NS",
+        "chunk_text": "milestone by combining ransomware payloads with worm-like propagation capabilities. \n It exploited the Server Message Block (SMBv1) protocol vulnerability using the \nEternalBlue exploit, enabling remote code execution without user interaction. Once a \nvulnerable system was compromised, WannaCry automatically scanned local and",
+        "chunk_length": 327
+    },
+    {
+        "chunk_id": 58,
+        "source_file": "AK NS",
+        "chunk_text": "external networks to identify additional targets. This automated exploitation allowed the \nmalware to spread rapidly across large networks. \nThe attack also demonstrated the increasing modularity of ransomware, where \nscanning, exploitation, encryption, and command-and-control communication were \nintegrated into a single automated framework.  \nThis technical sophistication marked a transition from opportunistic attacks to large-\nscale, self-propagating cyber threats, highlighting the need for advanced intrusion \ndetection, vulnerability management, and network segmentation. \nDecision-Making During the Crisis \n \nOrganizations were forced to take rapid decisions under extreme pressure to \nlimit damage and restore affected systems. \n",
+        "chunk_length": 742
+    },
+    {
+        "chunk_id": 59,
+        "source_file": "AK NS",
+        "chunk_text": "limit damage and restore affected systems. \n \nMany institutions shut down infected computers, disconnected networks, and \nsuspended digital services to prevent further spread of the ransomware. \n \nCritical sectors, especially healthcare and public services, prioritized maintaining \nessential operations while assessing recovery options.",
+        "chunk_length": 339
+    },
+    {
+        "chunk_id": 60,
+        "source_file": "AK NS",
+        "chunk_text": " \nA major issue was the delay in deploying available security patches, despite \nupdates being released before the attack. \n \nPatch delays were often caused by legacy system dependencies, operational \nconstraints, and lack of cybersecurity preparedness. \n \nThese delays significantly increased system vulnerability and allowed the \nmalware to spread rapidly. \n \nCommunication failures were common, as many organizations lacked well-\ndefined incident-response communication plans. \n \nPoor communication resulted in employee confusion, slower response actions, \nand inconsistent information shared with stakeholders and the public. \n \nThe incident highlighted the importance of timely decision-making, proactive \npatch management, and structured communication strategies during major cyber",
+        "chunk_length": 792
+    },
+    {
+        "chunk_id": 61,
+        "source_file": "AK NS",
+        "chunk_text": "patch management, and structured communication strategies during major cyber \ncrises. \nWannaCry as a Turning Point in Cybersecurity \nShift in Global Cybersecurity Awareness \n \nThe WannaCry attack significantly increased global awareness of cybersecurity \nrisks. \n \nOrganizations and governments realized that cyber threats could cause real-\nworld disruption, not just data loss. \n \nThe attack highlighted the dangers of outdated systems and poor patch \nmanagement, even in critical infrastructure. \n \nCybersecurity became a strategic priority rather than just an IT responsibility. \nChanges in Security Policies Post-2017 \n \nGovernments introduced stronger national cybersecurity policies and emergency \nresponse frameworks. \n",
+        "chunk_length": 732
+    },
+    {
+        "chunk_id": 62,
+        "source_file": "AK NS",
+        "chunk_text": "response frameworks. \n \nOrganizations enforced mandatory security updates and patch management \npolicies. \n \nIncreased focus was placed on risk assessment, compliance standards, and \ncyber resilience planning. \n \nCritical sectors such as healthcare and finance adopted stricter cybersecurity \nregulations.",
+        "chunk_length": 308
+    },
+    {
+        "chunk_id": 63,
+        "source_file": "AK NS",
+        "chunk_text": "Influence on Ransomware Defense Strategies \n \nWannaCry led to improved ransomware detection and prevention techniques. \n \nOrganizations began implementing regular backups, network segmentation, and \nthreat monitoring systems. \n \nIncident response plans and cyber crisis simulations became more common. \n \nThe attack encouraged collaboration between governments, vendors, and \nsecurity researchers to counter future ransomware threats. \nImportance of Cyber Resilience in Modern Organizations \nCyber resilience represents an organization’s capability to anticipate, withstand, recover \nfrom, and adapt to cyber incidents while ensuring continuity of critical operations. The \nWannaCry ransomware attack clearly demonstrated that traditional security controls",
+        "chunk_length": 760
+    },
+    {
+        "chunk_id": 64,
+        "source_file": "AK NS",
+        "chunk_text": "WannaCry ransomware attack clearly demonstrated that traditional security controls \nalone are insufficient to protect organizations from large-scale cyber threats.  \nMany affected institutions lacked structured incident response plans, reliable backup \nsystems, and tested disaster recovery mechanisms, which significantly prolonged \nservice outages and operational disruption.  \nCyber resilience focuses on proactive preparation, including regular data backups, \nnetwork redundancy, employee training, and well-defined recovery procedures. \n It also emphasizes rapid detection, containment, and coordinated response to minimize \ndamage during an attack. By integrating cyber resilience into organizational strategy,",
+        "chunk_length": 716
+    },
+    {
+        "chunk_id": 65,
+        "source_file": "AK NS",
+        "chunk_text": "damage during an attack. By integrating cyber resilience into organizational strategy, \ninstitutions can reduce downtime, limit financial and reputational losses, and maintain \nessential services even during severe cyber incidents.  \nThe lessons from WannaCry highlight cyber resilience as a critical requirement for long-\nterm digital sustainability and operational stability in the modern threat landscape. \nFuture Threat Landscape \n The future threat landscape is expected to become more complex and \ndangerous as cyber attackers increasingly adopt advanced technologies.  \n AI-driven malware will be capable of adapting its behavior in real time, enabling it \nto evade traditional security defenses and target systems more precisely.",
+        "chunk_length": 739
+    },
+    {
+        "chunk_id": 66,
+        "source_file": "AK NS",
+        "chunk_text": "to evade traditional security defenses and target systems more precisely.  \n Autonomous cyberattacks may operate with minimal human involvement, \nallowing rapid identification and exploitation of vulnerable networks at large \nscale. \n Cyberwarfare is also evolving, with nation-state actors using cyber tools as \nstrategic weapons to disrupt critical infrastructure and influence geopolitical \noutcomes.",
+        "chunk_length": 405
+    },
+    {
+        "chunk_id": 67,
+        "source_file": "AK NS",
+        "chunk_text": " To address these emerging risks, organizations and governments are turning to \ndigital risk forecasting, which uses predictive analytics and threat intelligence to \nanticipate attacks before they occur.  \n These developments indicate that future cybersecurity efforts must focus on \nintelligence-driven, proactive, and resilient defense strategies. \n \n \nStrategic Recommendations \nOrganizational Policies \n \nOrganizations should enforce mandatory patching, access control, and backup \npolicies. \n \nRegular cybersecurity audits and employee training programs must be \nimplemented. \n \nIncident response plans should be tested through simulations and drills. \nNational Cyber Strategy \n \nGovernments must strengthen national cybersecurity frameworks and \nemergency response systems. \n",
+        "chunk_length": 788
+    },
+    {
+        "chunk_id": 68,
+        "source_file": "AK NS",
+        "chunk_text": "Governments must strengthen national cybersecurity frameworks and \nemergency response systems. \n \nProtection of critical infrastructure should be a top national priority. \n \nInvestment in cyber education and skilled professionals is essential.",
+        "chunk_length": 245
+    },
+    {
+        "chunk_id": 69,
+        "source_file": "AK NS",
+        "chunk_text": "Global Cooperation Models \n Cyber threats cross borders, requiring international collaboration and intelligence \nsharing. \n Governments, private organizations, and security agencies must work together. \nCyber Resilience Framework \n \nCyber resilience focuses on prevention, detection, response, and recovery. \n \nSystems should be designed to continue operating even during attacks. \n \nResilience ensures minimal disruption and faster recovery from cyber incidents. \nCyber Security Awareness and Training \nCyber security awareness and training focus on educating users about cyber threats \nand safe digital practices. Many cyber incidents occur due to human mistakes rather \nthan technical failures. Proper training helps employees identify threats early and",
+        "chunk_length": 761
+    },
+    {
+        "chunk_id": 70,
+        "source_file": "AK NS",
+        "chunk_text": "than technical failures. Proper training helps employees identify threats early and \nrespond correctly, reducing the overall risk of cyberattacks. \nKey Points \n Awareness of Cyber Threats: \nEmployees learn about common threats such as phishing, ransomware, and \nmalware, helping them recognize attacks before damage occurs. \n Safe Online Practices: \nTraining promotes secure behavior, including avoiding suspicious links, using \ntrusted websites, and following security guidelines. \n Password and Access Management: \nUsers are taught to create strong passwords, avoid password sharing, and use \nmulti-factor authentication where available. \n Importance of Software Updates: \nAwareness programs highlight the need for timely system and application \nupdates to fix security vulnerabilities.",
+        "chunk_length": 792
+    },
+    {
+        "chunk_id": 71,
+        "source_file": "AK NS",
+        "chunk_text": "updates to fix security vulnerabilities. \n Incident Reporting: \nEmployees are encouraged to report suspicious activities immediately, enabling \nfaster response and containment.",
+        "chunk_length": 177
+    },
+    {
+        "chunk_id": 72,
+        "source_file": "AK NS",
+        "chunk_text": " Building a Security Culture: \nRegular training creates a sense of responsibility and shared accountability for \ncybersecurity across the organization. \nRansomware Attribution and Challenges \nAttributing ransomware attacks to specific actors is a major challenge due to the \nsophisticated techniques used by cybercriminals. Attackers often hide their identities \nusing anonymization tools such as Tor networks, VPNs, and encrypted communication \nchannels. They also demand payments in cryptocurrencies like Bitcoin, which are \ndifficult to trace.  \nIn the WannaCry attack, investigations suggested links to state-sponsored groups, but \nconcrete legal attribution was complicated by the malware’s global spread and the \nreuse of existing exploits like EternalBlue.",
+        "chunk_length": 764
+    },
+    {
+        "chunk_id": 73,
+        "source_file": "AK NS",
+        "chunk_text": "reuse of existing exploits like EternalBlue.  \nAttackers can also reuse malware code, deploy false flags, and leverage Ransomware-\nas-a-Service platforms, making it hard to identify the original perpetrator. These \nchallenges complicate law enforcement, delay international cooperation, and limit \naccountability.  \nTo improve attribution, organizations and governments need advanced cyber forensics, \ncoordinated intelligence sharing, and standardized global reporting frameworks. The \nWannaCry case clearly illustrated that without proper attribution mechanisms, holding \nattackers responsible and preventing future attacks becomes extremely difficult. \nKey Takeaways from Ransomware Attacks \n \n Ransomware attacks highlight the critical importance of proactive \ncybersecurity measures.",
+        "chunk_length": 789
+    },
+    {
+        "chunk_id": 74,
+        "source_file": "AK NS",
+        "chunk_text": " Ransomware attacks highlight the critical importance of proactive \ncybersecurity measures.  \n Organizations must prioritize timely software updates, maintain secure \nbackups, and implement strong authentication systems.  \n Employee awareness and training play a vital role in preventing \ninfections, while rapid detection and response can minimize operational \ndowntime.",
+        "chunk_length": 374
+    },
+    {
+        "chunk_id": 75,
+        "source_file": "AK NS",
+        "chunk_text": "Conclusion  \n The WannaCry ransomware attack of May 2017 stands as a landmark event in \nthe history of global cybersecurity. By exploiting unpatched Windows systems \nthrough the EternalBlue vulnerability, the attack demonstrated how a single \nweakness could trigger widespread disruption across critical sectors such as \nhealthcare, transportation, banking, and government services. The incident \nexposed serious gaps in patch management, legacy system maintenance, \nincident response readiness, and communication strategies. It also highlighted \nthe real-world consequences of cyber threats, including economic loss, service \ndisruption, and risks to public safety. \n \n Overall, the WannaCry case study emphasizes that cybersecurity is no longer a",
+        "chunk_length": 750
+    },
+    {
+        "chunk_id": 76,
+        "source_file": "AK NS",
+        "chunk_text": " Overall, the WannaCry case study emphasizes that cybersecurity is no longer a \npurely technical issue but a strategic and organizational responsibility. The attack \nreshaped global cybersecurity awareness, leading to stronger policies, improved \nransomware defenses, and increased collaboration between governments, \ntechnology vendors, and the cybersecurity community. As future threats become \nmore advanced with AI-driven and autonomous attacks, the lessons learned from \nWannaCry underline the need for proactive defense, continuous monitoring, \nregular updates, and cyber resilience planning to protect digital infrastructure and \nsociety at large. \n \nReferences \n1. Microsoft Security Response Center. WannaCry Ransomware: Analysis and \nMitigation. Microsoft, 2017.",
+        "chunk_length": 773
+    },
+    {
+        "chunk_id": 77,
+        "source_file": "AK NS",
+        "chunk_text": "Mitigation. Microsoft, 2017. \n2. National Health Service (NHS), UK. Cyber Attack Incident Report – WannaCry, \n2017. \n3. Symantec Security Response. WannaCry: Ransomware Attacks Show Strong \nLinks to Lazarus Group, 2017. \n4. Kaspersky Lab. WannaCry Ransomware Attack: Technical Analysis, 2017. \n5. Europol. Cybercrime and Ransomware Threat Assessment, 2017. \n6. Cisco Talos Intelligence Group. WannaCry Malware Analysis, 2017. \n7. National Institute of Standards and Technology (NIST). Framework for Improving \nCritical Infrastructure Cybersecurity, Version 1.1",
+        "chunk_length": 560
+    }
+]

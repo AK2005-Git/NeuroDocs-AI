@@ -1,0 +1,6 @@
+ADVANCED RAG EVALUATION REPORT
+============================================================
+
+Questions Evaluated : 40
+Average Score       : 9.43/10
+Average Response Time: 6.12 sec

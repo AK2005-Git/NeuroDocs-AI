@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NeuroDocs AI Platform</title>
+
+<link rel="stylesheet" href="/frontend/style.css">
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        <i class="fas fa-brain"></i>
+        NeuroDocs
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#chat">Chat</a></li>
+        <li><a href="#upload">Upload</a></li>
+    </ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-badge">
+            <i class="fas fa-sparkles"></i>
+            Enterprise AI Retrieval Platform
+        </div>
+
+        <h1>
+            Advanced
+            <span>Retrieval Augmented</span>
+            Generation
+        </h1>
+
+        <p>
+
+            Hybrid Search powered by FAISS,
+            BM25, Reciprocal Rank Fusion,
+            Cross Encoder Reranking,
+            BGE-M3 Embeddings and Ollama.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#chat" class="btn-primary">
+                Start Chat
+            </a>
+
+            <a href="#upload" class="btn-secondary">
+                Upload PDF
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- STATS -->
+
+<section id="dashboard" class="stats">
+
+    <div class="stat-card">
+
+        <h3>410+</h3>
+
+        <p>
+            Indexed Chunks
+        </p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h3>FAISS</h3>
+
+        <p>
+            Vector Search Engine
+        </p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h3>BM25</h3>
+
+        <p>
+            Keyword Retrieval
+        </p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h3>RRF</h3>
+
+        <p>
+            Hybrid Fusion Ranking
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section id="features" class="features">
+
+    <h2 class="section-title">
+        System Components
+    </h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+
+            <i class="fas fa-database"></i>
+
+            <h3>FAISS Search</h3>
+
+            <p>
+                High performance vector similarity search.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-search"></i>
+
+            <h3>BM25 Search</h3>
+
+            <p>
+                Traditional keyword retrieval.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-layer-group"></i>
+
+            <h3>RRF Fusion</h3>
+
+            <p>
+                Combines vector and keyword ranking.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-ranking-star"></i>
+
+            <h3>Reranking</h3>
+
+            <p>
+                Cross Encoder improves answer quality.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-brain"></i>
+
+            <h3>Ollama LLM</h3>
+
+            <p>
+                Local AI model for response generation.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-memory"></i>
+
+            <h3>Chat Memory</h3>
+
+            <p>
+                Context aware conversations.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PIPELINE -->
+
+<section class="features">
+
+    <h2 class="section-title">
+        Retrieval Pipeline
+    </h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+
+            <i class="fas fa-file-pdf"></i>
+
+            <h3>PDF Upload</h3>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-scissors"></i>
+
+            <h3>Chunking</h3>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-vector-square"></i>
+
+            <h3>BGE-M3</h3>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-database"></i>
+
+            <h3>FAISS Index</h3>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-code-branch"></i>
+
+            <h3>Hybrid Search</h3>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-robot"></i>
+
+            <h3>Ollama Response</h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CHAT -->
+
+<section id="chat" class="chat-section">
+
+    <h2 class="section-title">
+        AI Chat Workspace
+    </h2>
+
+    <div class="chat-container">
+
+        <div class="chat-header">
+
+            <h3>
+                RAG Assistant
+            </h3>
+
+            <div id="api-status">
+                Checking...
+            </div>
+
+        </div>
+
+        <div
+            id="messages"
+            class="messages">
+
+            <div class="bot-message">
+
+                👋 Welcome to NeuroDocs Assistant
+
+            </div>
+
+        </div>
+
+        <form
+            id="chat-form"
+            class="chat-input">
+
+            <input
+                id="question"
+                type="text"
+                placeholder="Ask anything from uploaded documents...">
+
+            <button type="submit">
+
+                <i class="fas fa-paper-plane"></i>
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- PDF UPLOAD -->
+
+<section id="upload" class="upload-section">
+
+    <h2 class="section-title">
+        Upload Knowledge Base
+    </h2>
+
+    <div class="upload-card">
+
+        <i class="fas fa-cloud-upload-alt"></i>
+
+        <h3>
+            Upload PDF Documents
+        </h3>
+
+        <br>
+
+        <input
+            type="file"
+            id="pdfFile"
+            accept=".pdf">
+
+        <br><br>
+
+        <button
+            id="uploadBtn"
+            class="btn-primary">
+
+            Upload PDF
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h2>
+        NeuroDocs AI Platform
+    </h2>
+
+    <br>
+
+    <p>
+
+        Powered by FastAPI,
+        Ollama,
+        FAISS,
+        BM25,
+        RRF,
+        Cross Encoder
+        and BGE-M3
+
+    </p>
+
+</footer>
+
+<script src="/frontend/app.js"></script>
+
+</body>
+
+</html>
