@@ -8,19 +8,11 @@
     "relevant_source_files": ["FNH unit 1,2,3"]
   },
   {
-    "question": "What are micronutrients?",
-    "relevant_source_files": ["ns assignment"]
-  },
-  {
     "question": "What is the difference between macronutrients and micronutrients?",
     "relevant_source_files": ["FNH unit 1,2,3"]
   },
   {
     "question": "What are the different types of macronutrients?",
     "relevant_source_files": ["FNH unit 1,2,3"]
-  },
-  {
-    "question": "What are the different types of micronutrients?",
-    "relevant_source_files": ["AK NS"]
   }
 ]

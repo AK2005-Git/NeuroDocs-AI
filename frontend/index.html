@@ -65,7 +65,7 @@
             Hybrid Search powered by FAISS,
             BM25, Reciprocal Rank Fusion,
             Cross Encoder Reranking,
-            BGE-M3 Embeddings and Ollama.
+            BGE-M3 Embeddings and Groq.
 
         </p>
 
@@ -193,10 +193,10 @@
 
             <i class="fas fa-brain"></i>
 
-            <h3>Ollama LLM</h3>
+            <h3>Groq LLM</h3>
 
             <p>
-                Local AI model for response generation.
+                Fast cloud inference for response generation.
             </p>
 
         </div>
@@ -271,7 +271,7 @@
 
             <i class="fas fa-robot"></i>
 
-            <h3>Ollama Response</h3>
+            <h3>Groq Response</h3>
 
         </div>
 
@@ -329,10 +329,6 @@
 
             <div class="chat-header-actions">
 
-                <button id="settingsToggleBtn" class="chat-icon-btn" title="Retrieval settings">
-                    <i class="fas fa-sliders"></i>
-                </button>
-
                 <button id="exportChatBtn" class="chat-icon-btn" title="Export conversation">
                     <i class="fas fa-download"></i>
                 </button>
@@ -346,62 +342,6 @@
                 </div>
 
             </div>
-
-        </div>
-
-        <!-- ADJUSTABLE RETRIEVAL SETTINGS PANEL -->
-
-        <div id="settingsPanel" class="settings-panel" hidden>
-
-            <div class="settings-row">
-
-                <label for="retrievalMode">Retrieval Mode</label>
-
-                <select id="retrievalMode">
-                    <option value="hybrid" selected>Hybrid (FAISS + BM25 + RRF)</option>
-                    <option value="faiss">FAISS only (dense/semantic)</option>
-                    <option value="bm25">BM25 only (keyword)</option>
-                </select>
-
-            </div>
-
-            <div class="settings-row">
-
-                <label for="topKFinal">Top-K Results: <span id="topKFinalValue">5</span></label>
-
-                <input type="range" id="topKFinal" min="1" max="10" value="5">
-
-            </div>
-
-            <div class="settings-row settings-row-toggle">
-
-                <label for="useReranker">Cross-Encoder Reranking</label>
-
-                <input type="checkbox" id="useReranker" checked>
-
-            </div>
-
-            <div class="settings-row settings-row-toggle">
-
-                <label for="enableQueryRewrite">Query Rewriting</label>
-
-                <input type="checkbox" id="enableQueryRewrite" checked>
-
-            </div>
-
-            <div class="settings-row settings-row-toggle">
-
-                <label for="enableGroundedness">Hallucination Check</label>
-
-                <input type="checkbox" id="enableGroundedness" checked>
-
-            </div>
-
-            <p class="settings-note">
-                These settings apply to your next question. Disabling
-                reranking will show approximate confidence scores
-                instead of true relevance scores.
-            </p>
 
         </div>
 
@@ -547,7 +487,7 @@
     <p>
 
         Powered by FastAPI,
-        Ollama,
+        Groq,
         FAISS,
         BM25,
         RRF,

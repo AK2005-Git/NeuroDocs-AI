@@ -27,15 +27,6 @@ const themeToggle = document.getElementById("themeToggle");
 const exportChatBtn = document.getElementById("exportChatBtn");
 const clearChatBtn = document.getElementById("clearChatBtn");
 
-const settingsToggleBtn = document.getElementById("settingsToggleBtn");
-const settingsPanel = document.getElementById("settingsPanel");
-const retrievalModeSelect = document.getElementById("retrievalMode");
-const topKFinalSlider = document.getElementById("topKFinal");
-const topKFinalValue = document.getElementById("topKFinalValue");
-const useRerankerCheckbox = document.getElementById("useReranker");
-const enableQueryRewriteCheckbox = document.getElementById("enableQueryRewrite");
-const enableGroundednessCheckbox = document.getElementById("enableGroundedness");
-
 const runEvalBtn = document.getElementById("runEvalBtn");
 const evalResults = document.getElementById("evalResults");
 
@@ -288,15 +279,6 @@ questionInput.value = "";
 
 addThinking();
 
-const requestBody = {
-    question,
-    retrieval_mode: retrievalModeSelect ? retrievalModeSelect.value : "hybrid",
-    top_k_final: topKFinalSlider ? parseInt(topKFinalSlider.value) : 5,
-    use_reranker: useRerankerCheckbox ? useRerankerCheckbox.checked : true,
-    enable_query_rewrite: enableQueryRewriteCheckbox ? enableQueryRewriteCheckbox.checked : true,
-    enable_groundedness_check: enableGroundednessCheckbox ? enableGroundednessCheckbox.checked : true
-};
-
 try {
 
     const response =
@@ -311,7 +293,9 @@ try {
                 },
 
                 body:
-                    JSON.stringify(requestBody)
+                    JSON.stringify({
+                        question
+                    })
             }
         );
 
@@ -622,26 +606,6 @@ if (themeToggle) {
 }
 
 initTheme();
-
-// =====================================================
-// ADJUSTABLE RETRIEVAL SETTINGS PANEL
-// =====================================================
-
-if (settingsToggleBtn && settingsPanel) {
-
-    settingsToggleBtn.addEventListener("click", () => {
-
-        settingsPanel.hidden = !settingsPanel.hidden;
-    });
-}
-
-if (topKFinalSlider && topKFinalValue) {
-
-    topKFinalSlider.addEventListener("input", () => {
-
-        topKFinalValue.innerText = topKFinalSlider.value;
-    });
-}
 
 // =====================================================
 // EVALUATION DASHBOARD

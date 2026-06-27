@@ -1,0 +1,206 @@
+[
+    {
+        "chunk_id": 0,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "MX3089 \n \n \n \nINDUSTRIAL SAFETY  \n \n \nCASE STUDY \n \n \n \n \n \n \n \n \n \n                                         Submitted by, \n \n  Abdul Kareem K \n                    312823243001 \n              B.Tech AI&DS,  \n              (3rd year)",
+        "chunk_length": 232
+    },
+    {
+        "chunk_id": 1,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "HAZARD IDENTIFICATION IN \nINDUSTRIAL WORKPLACES \nIntroduction to Hazard Identification \nHazard identification is the systematic process of recognizing potential sources of \nharm in a workplace environment. It forms the first and most critical step in the \noverall risk management framework adopted by industries worldwide. Without proper \nhazard identification, organizations cannot take appropriate preventive or corrective \nactions. \nIn industrial settings, hazards can arise from machinery, chemicals, work processes, \nenvironmental conditions, or human behavior. Identifying these hazards early allows \nsafety officers, engineers, and management to put in place timely control measures \nthat protect workers and organizational assets.",
+        "chunk_length": 738
+    },
+    {
+        "chunk_id": 2,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "that protect workers and organizational assets. \n✓​ Hazard identification is a legal requirement under most national occupational \nhealth and safety regulations. \n✓​ It is a proactive approach that minimizes reliance on reactive accident \ninvestigation. \n✓​ Effective identification reduces insurance costs, downtime, and liability \nexposure. \n \nImportance of Workplace Safety \nWorkplace safety is not merely a regulatory obligation; it is a moral and operational \nnecessity. Industrial injuries and fatalities result in human suffering, loss of \nproductivity, legal consequences, and reputational damage. A culture of safety \nbenefits both employers and employees. \n●​ Worker health and well-being are protected when hazards are proactively \nmanaged.",
+        "chunk_length": 751
+    },
+    {
+        "chunk_id": 3,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "●​ Worker health and well-being are protected when hazards are proactively \nmanaged. \n●​ Organizations that invest in safety see higher employee morale and \nproductivity. \n●​ Legal compliance with standards such as OSHA 29 CFR 1910 is maintained. \n●​ Financial losses from accidents, compensation claims, and plant shutdowns \nare reduced. \n \nObjectives of the Case Study \nThis case study aims to examine a real-world industrial hazard scenario from a \nmanufacturing plant and analyze how hazard identification was carried out, where it \nfailed, and how it was subsequently improved. \n1.​ To identify and classify all hazards present in the selected industrial \nenvironment. \n2.​ To analyze the sequence of events that led to a workplace incident.",
+        "chunk_length": 746
+    },
+    {
+        "chunk_id": 4,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "3.​ To evaluate existing hazard identification tools and their effectiveness. \n4.​ To recommend appropriate control measures aligned with the hierarchy of \ncontrols. \n5.​ To highlight the role of employee participation in building a safer workplace. \nIndustry Overview  \nThe selected case study is based on a medium-scale chemical manufacturing plant \nlocated in Pune, Maharashtra, India. The plant, referred to as \"ChemiCore \nIndustries,\" was established in 2005 and operates across an area of approximately \n12 acres. It employs around 480 workers across three production shifts. \nChemiCore Industries manufactures industrial-grade solvents, adhesives, and \ncoating compounds used primarily in the automotive and construction sectors. The",
+        "chunk_length": 740
+    },
+    {
+        "chunk_id": 5,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "coating compounds used primarily in the automotive and construction sectors. The \nfacility includes reactor units, storage tanks, a quality control laboratory, packaging \nunits, and a waste treatment plant. \n○​ Industry Type: Chemical Manufacturing \n○​ Location: Pune Industrial Zone, Maharashtra, India \n○​ Workforce: 480 direct employees, 80 contract workers \n○​ Operating Hours: 24 hours, 3 shifts per day \n○​ Regulatory Body: Maharashtra Pollution Control Board (MPCB), Factory Act \n1948 \n \n \n \nWork Environment Description \nThe production floor at ChemiCore Industries is characterised by high ambient \ntemperatures, chemical vapors, and continuous mechanical noise. Workers are",
+        "chunk_length": 683
+    },
+    {
+        "chunk_id": 6,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "exposed to rotating equipment, pressurised pipelines, flammable liquid transfers, and \nelevated work platforms. \na.​ Reactor bay temperatures often exceed 45 degrees Celsius during peak \noperations. \nb.​ Chemical fumes from solvent storage units are a persistent concern. \nc.​ Noise levels in the mixing and filling areas frequently cross 90 dB. \nd.​ Many work areas require working at heights above 3 meters. \nIntroduction to the Case Scenario \nOn the morning of 14th February 2022, a serious chemical spillage and fire incident \noccurred in Reactor Bay No. 3 at ChemiCore Industries. The incident resulted in two \nworkers sustaining severe chemical burns, one case of acute inhalation injury, and \nsignificant damage to equipment worth approximately INR 35 lakhs. The plant was",
+        "chunk_length": 779
+    },
+    {
+        "chunk_id": 7,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "significant damage to equipment worth approximately INR 35 lakhs. The plant was \npartially shut down for six days. \nThe incident triggered a full-scale internal investigation as well as an inspection by \nthe District Factory Inspectorate. The findings revealed multiple pre-existing hazards \nthat had not been properly identified or controlled, pointing to critical gaps in the \nplant's hazard identification program. \n \nCompany Profile and Operations \nChemiCore Industries operates under ISO 9001:2015 for quality management and \nhad attempted to implement elements of ISO 45001:2018 for occupational health \nand safety, though full certification had not yet been achieved at the time of the \nincident. \n●​ Product Lines: Industrial solvents (toluene-based), epoxy adhesives,",
+        "chunk_length": 776
+    },
+    {
+        "chunk_id": 8,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "incident. \n●​ Product Lines: Industrial solvents (toluene-based), epoxy adhesives, \npolyurethane coatings \n●​ Annual Turnover: Approximately INR 120 crores \n●​ Safety Officer: One certified safety officer per shift (DISH-certified) \n●​ Last Safety Audit: Conducted 8 months before the incident \n●​ Accident Record (prior 3 years): 4 minor incidents, 1 lost-time injury \n \nNature of Work Activities \nThe plant performs a range of high-risk industrial activities, many of which involve \nthe handling of hazardous substances. Workers perform tasks in environments \nwhere multiple hazard types coexist simultaneously. \n1.​ Mixing and blending of flammable organic solvents in open-top reactor \nvessels. \n2.​ Transfer of raw materials from storage tankers to process units via hose \nconnections.",
+        "chunk_length": 790
+    },
+    {
+        "chunk_id": 9,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "2.​ Transfer of raw materials from storage tankers to process units via hose \nconnections. \n3.​ Quality inspection of products using spectroscopic instruments in enclosed \nlabs.",
+        "chunk_length": 177
+    },
+    {
+        "chunk_id": 10,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "4.​ Maintenance of equipment including welding, grinding, and electrical work \nnear flammable areas. \n5.​ Loading and unloading of finished goods using forklifts in congested \nwarehouse areas. \nEach of these activities presents its own set of hazards that require careful \nidentification and documentation before work begins. Pre-task hazard assessments \nhad not been consistently performed across all these areas. \nDescription of the Incident \nOn the day of the incident, Reactor Bay No. 3 was scheduled to complete a batch of \ntoluene-based adhesive compound. The shift began at 6:00 AM with a team of five \nworkers, including one process operator, two helpers, and one maintenance \ntechnician who had been called in to attend to a leaking valve on the reactor feed \nline.",
+        "chunk_length": 774
+    },
+    {
+        "chunk_id": 11,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "technician who had been called in to attend to a leaking valve on the reactor feed \nline. \nAt approximately 9:15 AM, while the maintenance technician attempted to tighten the \nleaking valve without isolating the feed line, a sudden surge in line pressure caused \nthe valve fitting to fail. Approximately 40 litres of toluene were released onto the \nreactor bay floor. The vapors rapidly spread and were ignited by a nearby electric \nmotor that had not been placed in an explosion-proof enclosure. \nThe resulting flash fire injured two workers directly and caused damage to \ninstrumentation panels and pipework in the bay. Emergency response was initiated \nwithin three minutes, and the fire was suppressed within fifteen minutes using dry \nchemical powder extinguishers.",
+        "chunk_length": 770
+    },
+    {
+        "chunk_id": 12,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "chemical powder extinguishers. \n \n \nSequence of Events Leading to Hazard \nThe following sequence outlines the chain of failures that led to the incident:",
+        "chunk_length": 153
+    },
+    {
+        "chunk_id": 13,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "a.​ Valve leak on feed line was reported but not formally logged in the \nmaintenance register. \nb.​ Maintenance work order was issued verbally without a Permit to Work (PTW) \nbeing raised. \nc.​ The technician entered the bay without isolating the feed line or conducting \nlockout/tagout (LOTO). \nd.​ No gas detection equipment was deployed in the bay prior to the maintenance \nactivity. \ne.​ Electric motor near the work area had not been inspected for explosion-proof \ncompliance. \nf.​ Workers did not receive a pre-task safety briefing that morning. \nIdentification of Hazards in the Case \nFollowing the incident, a multi-disciplinary investigation team comprising the safety \nofficer, a process engineer, a human resources representative, and an external",
+        "chunk_length": 757
+    },
+    {
+        "chunk_id": 14,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "officer, a process engineer, a human resources representative, and an external \nsafety consultant conducted a comprehensive hazard identification exercise across \nReactor Bay No. 3 and adjoining areas. The following hazards were formally \nidentified and recorded: \n✓​ Presence of highly flammable toluene vapors with no continuous gas \nmonitoring system. \n✓​ Non-explosion-proof electrical motor operating in a classified hazardous area. \n✓​ Degraded valve fitting on the reactor feed line showing prior signs of \ncorrosion. \n✓​ Inadequate lockout/tagout (LOTO) procedure for maintenance isolation. \n✓​ No formal Permit to Work (PTW) system in place for high-risk maintenance \ntasks. \n✓​ Poor housekeeping with accumulated chemical residue on the bay floor.",
+        "chunk_length": 757
+    },
+    {
+        "chunk_id": 15,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "tasks. \n✓​ Poor housekeeping with accumulated chemical residue on the bay floor. \n✓​ Inadequate personal protective equipment (PPE) usage among workers on \nshift. \nSources of Hazards \nHazards in this case emerged from multiple sources simultaneously, indicating a \nsystemic breakdown rather than a single point of failure. \n●​ Process Source: Handling and transfer of toluene, a Class IB flammable liquid \n(flash point 4 degrees Celsius), without adequate containment controls. \n●​ Equipment Source: Ageing valve fittings and non-compliant electrical \nequipment in classified areas. \n●​ Procedural Source: Absence of a formal PTW system and pre-task hazard \nassessment. \n●​ Human Source: Lack of safety training, bypassing of established isolation",
+        "chunk_length": 747
+    },
+    {
+        "chunk_id": 16,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "assessment. \n●​ Human Source: Lack of safety training, bypassing of established isolation \nprocedures, and poor communication between shifts. \n●​ Environmental Source: Enclosed reactor bay with insufficient ventilation and \nno forced air extraction. \nUnsafe Acts and Conditions",
+        "chunk_length": 277
+    },
+    {
+        "chunk_id": 17,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "The investigation distinguished between  \n1.​ unsafe acts (human behaviors) \n2.​ unsafe conditions (physical/environmental deficiencies) \nUnsafe Acts: \n○​ Performing maintenance work without a valid Permit to Work. \n○​ Failing to perform lockout/tagout before working on pressurized systems. \n○​ Entering a confined area with potential vapor accumulation without gas \nmonitoring. \nUnsafe Conditions: \n○​ Defective and corroded valve installed on a flammable liquid feed line. \n○​ Non-intrinsically safe electrical equipment operating in a Zone 1 hazardous \narea. \n○​ No mechanical ventilation system in Reactor Bay No. 3. \n○​ Absence of permanent fixed gas detectors in the reactor bay. \nTypes of Hazards Involved",
+        "chunk_length": 713
+    },
+    {
+        "chunk_id": 18,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "○​ Absence of permanent fixed gas detectors in the reactor bay. \nTypes of Hazards Involved \nThe investigation identified hazards spanning multiple categories, highlighting the \ncomplexity of the safety failure: \n1.​ Chemical Hazards: Toluene vapors posing inhalation toxicity and \nfire/explosion risk. Toluene has a TWA-TLV of 50 ppm as per ACGIH \nguidelines. \n2.​ Physical Hazards: High ambient temperature, excessive noise from reactor \nagitators, and pressurized pipelines. \n3.​ Electrical Hazards: Non-explosion-proof motor in a Zone 1 classified \nhazardous area, posing ignition risk. \n4.​ Biological Hazards: Absence of permit systems, inadequate training, and poor \ncommunication channels between shifts and departments.",
+        "chunk_length": 727
+    },
+    {
+        "chunk_id": 19,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "Most Critical Hazard Identified \nThe most critical hazard identified in this case was the uncontrolled release of \ntoluene vapors in an enclosed space with an active ignition source. This hazard \nrepresented the highest level of risk because it combined a highly flammable \nsubstance with a non-compliant ignition source and inadequate ventilation, creating \nconditions for a flash fire. \n●​ Probability: High (frequent maintenance near live feed lines, no gas \nmonitoring) \n●​ Severity: Critical (potential for fatality, severe burns, and major equipment \nloss) \n●​ Risk Level: Extreme (immediate action required) \nRisk Assessment Process \nFollowing hazard identification, the investigation team conducted a formal risk",
+        "chunk_length": 720
+    },
+    {
+        "chunk_id": 20,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "Following hazard identification, the investigation team conducted a formal risk \nassessment using the 5x5 Risk Matrix method, which evaluates each hazard based \non the likelihood of occurrence and the severity of potential consequences. Each \nhazard was assigned a risk score to determine priority for control measures. \na.​ Toluene vapor accumulation in enclosed area: Likelihood 5 (Almost Certain), \nSeverity 5 (Catastrophic) = Risk Score 25 (Extreme) \nb.​ Non-explosion-proof motor in hazardous zone: Likelihood 4 (Likely), Severity \n5 (Catastrophic) = Risk Score 20 (High) \nc.​ Corroded valve on feed line: Likelihood 4 (Likely), Severity 4 (Major) = Risk \nScore 16 (High) \nd.​ Absence of PTW for hot/maintenance work: Likelihood 5 (Almost Certain), \nSeverity 4 (Major) = Risk Score 20 (High)",
+        "chunk_length": 796
+    },
+    {
+        "chunk_id": 21,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "Severity 4 (Major) = Risk Score 20 (High) \ne.​ Inadequate PPE usage: Likelihood 4 (Likely), Severity 3 (Moderate) = Risk \nScore 12 (Medium)",
+        "chunk_length": 139
+    },
+    {
+        "chunk_id": 22,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "Impact on Workers and Organization \nThe incident had significant immediate and long-term consequences for both the \naffected workers and the organisation as a whole: \nImpact on Workers: \n✓​ Two workers sustained second-degree chemical burns to their arms and legs, \nrequiring hospitalization for 12 days. \n✓​ One worker suffered acute toluene inhalation and was placed under medical \nobservation for 48 hours. \n✓​ Remaining shift workers experienced psychological distress and required \ncounselling. \nImpact on Organization: \n✓​ Plant shutdown for 6 days resulted in production loss of approximately INR 18 \nlakhs. \n✓​ Equipment repair and replacement costs exceeded INR 35 lakhs. \n✓​ Legal notice was issued by the District Factory Inspectorate, and the company \nfaced a formal inquiry.",
+        "chunk_length": 787
+    },
+    {
+        "chunk_id": 23,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "faced a formal inquiry. \n✓​ Company reputation was affected, causing temporary disruption to client \ncontracts. \nMethods Used for Hazard Identification \nAfter the incident, ChemiCore Industries adopted a structured approach to hazard \nidentification that integrated both proactive and reactive methods. The objective was \nto prevent recurrence and to develop a comprehensive hazard register for the entire \nplant. \n●​ Walkthrough Inspections: Systematic physical inspections of all reactor bays, \nstorage areas, and utility zones conducted by the safety officer and a \ncross-functional team. \n●​ Incident Investigation Analysis: Root cause analysis (RCA) using the \nFishbone (Ishikawa) diagram method was applied to the flash fire incident to \ntrace all contributing factors.",
+        "chunk_length": 775
+    },
+    {
+        "chunk_id": 24,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "trace all contributing factors. \n●​ Hazard and Operability Study (HAZOP): A HAZOP study was initiated for all \nmajor process units to identify deviations from intended design parameters. \n●​ Near-Miss Reporting Review: Historical near-miss records from the past three \nyears were reviewed to identify recurring patterns and unreported hazards. \n●​ Checklist-Based Inspection: OSHA-aligned inspection checklists were used \nfor evaluating compliance in electrical safety, chemical storage, and PPE \nusage. \nTools and Techniques Applied \nThe safety team deployed a combination of structured tools and field-based \ntechniques to ensure comprehensive coverage: \n1.​ Job Safety Analysis (JSA): Each high-risk job was broken into sequential",
+        "chunk_length": 733
+    },
+    {
+        "chunk_id": 25,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "1.​ Job Safety Analysis (JSA): Each high-risk job was broken into sequential \nsteps, and hazards at each step were identified along with recommended",
+        "chunk_length": 148
+    },
+    {
+        "chunk_id": 26,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "controls. JSA sheets were prepared for maintenance, vessel entry, and \nsolvent transfer tasks. \n2.​ LOTO Audit: A full audit of lockout/tagout compliance was conducted across \nall isolation points in the plant. Colour-coded LOTO padlocks and shadow \nboards were introduced. \n3.​ Area Classification Review: All electrical equipment in the plant was \nre-evaluated against ATEX/IECEx zone classification requirements. \n4.​ Toolbox Talks: Daily pre-shift safety briefings (toolbox talks) were formally \ninstitutionalized for all work crews, covering task-specific hazards. \n \nRole of Employees in Hazard Reporting \nThe investigation revealed that several hazards, including the corroded valve and the \nnon-compliant motor, had been noticed by workers previously but were not reported",
+        "chunk_length": 780
+    },
+    {
+        "chunk_id": 27,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "non-compliant motor, had been noticed by workers previously but were not reported \ndue to fear of reprisal and a lack of accessible reporting channels. \n○​ An anonymous hazard reporting system (digital and paper-based) was \nintroduced post-incident. \n○​ Workers were trained on their legal right and responsibility to report hazards \nunder the Factories Act, 1948. \n○​ A 'Safety Observer' programme was launched to recognise and reward \nproactive hazard reporting. \n○​ Monthly safety committee meetings were made mandatory, with worker \nrepresentation from all departments. \n○​ Supervisors received refresher training on creating a psychologically safe \nenvironment for hazard reporting.",
+        "chunk_length": 687
+    },
+    {
+        "chunk_id": 28,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "Control Measures Implemented \nBased on the hierarchy of controls (Elimination, Substitution, Engineering Controls, \nAdministrative Controls, PPE), ChemiCore Industries implemented the following \nmeasures: \nElimination and Substitution: \n1.​ Wherever possible, toluene was substituted with a less volatile, water-based \nsolvent for certain adhesive formulations. \nEngineering Controls: \n2.​ All electrical equipment in Reactor Bay No. 3 was replaced with \nATEX-certified, explosion-proof models. \n3.​ A fixed continuous gas detection system for toluene was installed with audible \nand visual alarms. \n4.​ A forced mechanical ventilation system was installed in all reactor bays. \n5.​ All corroded valves on feed lines were replaced with stainless steel ball valves",
+        "chunk_length": 763
+    },
+    {
+        "chunk_id": 29,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "5.​ All corroded valves on feed lines were replaced with stainless steel ball valves \nrated for the operating pressure. \nAdministrative Controls: \n6.​ A formal Permit to Work (PTW) system was introduced and made mandatory \nfor all maintenance, hot work, and vessel entry operations. \n7.​ A comprehensive LOTO procedure was documented and all workers were \ntrained and certified. \n8.​ Pre-task hazard assessments (JSA) became mandatory before the start of \neach shift. \nPPE Upgrades: \n9.​ Workers were issued chemical-resistant gloves, face shields, and chemical \nsplash suits for all solvent handling tasks. \n10.​Respiratory protection (half-face respirators with organic vapour cartridges) \nwas mandated in all reactor bays. \nConclusion",
+        "chunk_length": 737
+    },
+    {
+        "chunk_id": 30,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "was mandated in all reactor bays. \nConclusion \n➔​ The ChemiCore Industries flash fire incident of February 2022 serves as a \npowerful reminder that hazard identification must be a continuous, systematic, \nand participatory process rather than a periodic compliance exercise. The \nincident was not caused by a single failure but by a series of interconnected \norganizational, procedural, and physical deficiencies that had developed over \ntime. \n➔​ Effective hazard identification, supported by appropriate tools such as JSA, \nHAZOP, and walkthrough inspections, and reinforced by strong safety \nleadership and employee engagement, can prevent such incidents. \nOrganizations must embed hazard identification into their daily operational",
+        "chunk_length": 735
+    },
+    {
+        "chunk_id": 31,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "Organizations must embed hazard identification into their daily operational \nculture, ensuring that every worker is empowered to recognize and report \nhazards without fear. \n➔​ The corrective actions implemented at ChemiCore Industries demonstrate \nthat even after a serious incident, a structured and committed response can",
+        "chunk_length": 324
+    },
+    {
+        "chunk_id": 32,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "transform workplace safety outcomes. Continuous monitoring, training, and \nreview remain essential to sustaining these improvements. \n \nReferences \n1. Occupational Safety and Health Administration (OSHA). (2002). Job Hazard \nAnalysis. U.S. Department of Labor. Retrieved from www.osha.gov \n2. International Labour Organization (ILO). (2011). OSH Management Systems: A \nTool for Continual Improvement. Geneva: ILO Publications. \n3. Bird, F. E., & Germain, G. L. (1996). Practical Loss Control Leadership. Det \nNorske Veritas (U.S.A.) Inc. \n4. National Safety Council. (2017). Accident Prevention Manual for Business and \nIndustry: Engineering and Technology (14th ed.). Itasca, IL: NSC. \n5. Bureau of Indian Standards. (2019). IS 14489: Code of Practice on Occupational",
+        "chunk_length": 768
+    },
+    {
+        "chunk_id": 33,
+        "source_file": "Hazard_Identification_Case_Study (1)",
+        "chunk_text": "5. Bureau of Indian Standards. (2019). IS 14489: Code of Practice on Occupational \nSafety and Health Audit. New Delhi: BIS. \n6. International Organization for Standardization. (2018). ISO 45001:2018 \nOccupational Health and Safety Management Systems. Geneva: ISO.",
+        "chunk_length": 263
+    }
+]

@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "total_questions": 4,
+    "top_k": 5,
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "hits": 4,
+    "misses": 0
+  },
+  "results": [
+    {
+      "question": "What is nutrient absorption?",
+      "expected_sources": [
+        "FNH unit 1,2,3"
+      ],
+      "retrieved_sources": [
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3"
+      ],
+      "hit": true,
+      "rank_of_first_hit": 1
+    },
+    {
+      "question": "What are macronutrients?",
+      "expected_sources": [
+        "FNH unit 1,2,3"
+      ],
+      "retrieved_sources": [
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3"
+      ],
+      "hit": true,
+      "rank_of_first_hit": 1
+    },
+    {
+      "question": "What is the difference between macronutrients and micronutrients?",
+      "expected_sources": [
+        "FNH unit 1,2,3"
+      ],
+      "retrieved_sources": [
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3"
+      ],
+      "hit": true,
+      "rank_of_first_hit": 1
+    },
+    {
+      "question": "What are the different types of macronutrients?",
+      "expected_sources": [
+        "FNH unit 1,2,3"
+      ],
+      "retrieved_sources": [
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3",
+        "FNH unit 1,2,3"
+      ],
+      "hit": true,
+      "rank_of_first_hit": 1
+    }
+  ]
+}
