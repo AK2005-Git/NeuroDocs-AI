@@ -108,7 +108,7 @@ def bm25_search(query, top_k=TOP_K_RETRIEVAL):
 # RRF FUSION
 # =====================================================
 
-def reciprocal_rank_fusion(result_lists):
+def reciprocal_rank_fusion(result_lists, rrf_k=RRF_K):
 
     scores = defaultdict(float)
 
@@ -117,7 +117,7 @@ def reciprocal_rank_fusion(result_lists):
         for rank, doc_id in enumerate(result_list):
 
             scores[doc_id] += 1.0 / (
-                RRF_K + rank + 1
+                rrf_k + rank + 1
             )
 
     ranked_results = sorted(
@@ -132,7 +132,7 @@ def reciprocal_rank_fusion(result_lists):
 # RERANKING
 # =====================================================
 
-def rerank_results(query, candidate_ids):
+def rerank_results(query, candidate_ids, top_k_final=TOP_K_FINAL):
 
     candidate_texts = []
 
@@ -170,47 +170,108 @@ def rerank_results(query, candidate_ids):
         reverse=True
     )
 
-    return results[:TOP_K_FINAL]
+    return results[:top_k_final]
 
 # =====================================================
 # ADVANCED SEARCH PIPELINE
 # =====================================================
 
-def advanced_search(query):
+def advanced_search(
+    query,
+    mode="hybrid",
+    top_k_retrieval=None,
+    top_k_final=None,
+    rrf_k=None,
+    use_reranker=True
+):
+    """
+    mode: "hybrid" (FAISS+BM25+RRF), "faiss" (dense only),
+          or "bm25" (sparse only)
+    top_k_retrieval: candidates considered before reranking
+    top_k_final: final number of chunks returned
+    rrf_k: RRF damping constant (only used in hybrid mode)
+    use_reranker: if False, skips cross-encoder reranking and
+                  returns retrieval-stage ranking directly
+                  (results will use retrieval rank, not a
+                  rerank score, since rerank is skipped)
+    """
 
-    print("\nRunning FAISS Search...")
+    retrieval_k = top_k_retrieval or TOP_K_RETRIEVAL
+    final_k = top_k_final or TOP_K_FINAL
+    fusion_k = rrf_k or RRF_K
 
-    faiss_results = faiss_search(
-        query
-    )
+    if mode == "faiss":
 
-    print("Running BM25 Search...")
+        print("\nRunning FAISS-only Search...")
 
-    bm25_results = bm25_search(
-        query
-    )
+        candidate_ids = faiss_search(
+            query,
+            top_k=retrieval_k
+        )
 
-    print("Running RRF Fusion...")
+    elif mode == "bm25":
 
-    fused_results = reciprocal_rank_fusion(
-        [
-            faiss_results,
-            bm25_results
+        print("\nRunning BM25-only Search...")
+
+        candidate_ids = bm25_search(
+            query,
+            top_k=retrieval_k
+        )
+
+    else:
+
+        print("\nRunning FAISS Search...")
+
+        faiss_results = faiss_search(
+            query,
+            top_k=retrieval_k
+        )
+
+        print("Running BM25 Search...")
+
+        bm25_results = bm25_search(
+            query,
+            top_k=retrieval_k
+        )
+
+        print("Running RRF Fusion...")
+
+        fused_results = reciprocal_rank_fusion(
+            [
+                faiss_results,
+                bm25_results
+            ],
+            rrf_k=fusion_k
+        )
+
+        candidate_ids = [
+            doc_id
+            for doc_id, _
+            in fused_results[:retrieval_k]
         ]
-    )
 
-    candidate_ids = [
-        doc_id
-        for doc_id, _
-        in fused_results[:TOP_K_RETRIEVAL]
-    ]
+    if not candidate_ids:
+        return []
 
-    print("Running Cross-Encoder Reranking...")
+    if use_reranker:
 
-    final_results = rerank_results(
-        query,
-        candidate_ids
-    )
+        print("Running Cross-Encoder Reranking...")
+
+        final_results = rerank_results(
+            query,
+            candidate_ids,
+            top_k_final=final_k
+        )
+
+    else:
+
+        # No reranking — synthesize a descending pseudo-score
+        # from retrieval rank so downstream confidence logic
+        # (which expects (doc_id, score) tuples) still works.
+        final_results = [
+            (doc_id, round(1.0 - (i / max(len(candidate_ids), 1)), 4))
+            for i, doc_id in enumerate(candidate_ids[:final_k])
+        ]
 
     return final_results
 

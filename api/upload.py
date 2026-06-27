@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 from fastapi import UploadFile
 from fastapi import File
+from fastapi import HTTPException
 
 import shutil
 from pathlib import Path
@@ -78,6 +79,114 @@ async def upload_pdf(
             "filename":
             file.filename
         }
+
+    except Exception as e:
+
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+# ============================================================
+# LIST DOCUMENTS API
+# ============================================================
+# Returns the real list of PDFs currently in the index, read
+# directly from disk — this is the source of truth, not the
+# browser's session memory.
+
+@router.get("/documents")
+async def list_documents():
+
+    try:
+
+        pdf_files = sorted(
+            RAW_PDF_DIR.glob("*.pdf")
+        )
+
+        documents = []
+
+        for pdf_path in pdf_files:
+
+            stat = pdf_path.stat()
+
+            documents.append(
+                {
+                    "filename": pdf_path.name,
+                    "size_bytes": stat.st_size
+                }
+            )
+
+        return {
+            "status": "success",
+            "documents": documents,
+            "count": len(documents)
+        }
+
+    except Exception as e:
+
+        return {
+            "status": "error",
+            "message": str(e),
+            "documents": [],
+            "count": 0
+        }
+
+# ============================================================
+# DELETE DOCUMENT API
+# ============================================================
+# Deletes the raw PDF from disk, then rebuilds the entire RAG
+# pipeline so FAISS + BM25 + metadata regenerate without it.
+# This is safe because rebuild_rag() always re-derives the
+# full index from whatever PDFs remain in RAW_PDF_DIR — there
+# is no manual/partial FAISS vector removal involved.
+
+@router.delete("/documents/{filename}")
+async def delete_document(
+    filename: str
+):
+
+    try:
+
+        target_path = (
+            RAW_PDF_DIR / filename
+        )
+
+        # Prevent path traversal (e.g. "../../etc/passwd")
+        if target_path.resolve().parent != RAW_PDF_DIR.resolve():
+
+            raise HTTPException(
+                status_code=400,
+                detail="Invalid filename"
+            )
+
+        if not target_path.exists():
+
+            raise HTTPException(
+                status_code=404,
+                detail=f"'{filename}' not found"
+            )
+
+        target_path.unlink()
+
+        print(
+            f"\nPDF Deleted: {filename}"
+        )
+
+        # ===================================
+        # AUTO REBUILD RAG (without this file)
+        # ===================================
+
+        rebuild_rag()
+
+        return {
+            "status": "success",
+            "message":
+            f"'{filename}' deleted and index rebuilt successfully"
+        }
+
+    except HTTPException:
+
+        raise
 
     except Exception as e:
 

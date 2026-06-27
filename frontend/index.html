@@ -34,7 +34,12 @@
         <li><a href="#dashboard">Dashboard</a></li>
         <li><a href="#chat">Chat</a></li>
         <li><a href="#upload">Upload</a></li>
+        <li><a href="#evaluation">Evaluation</a></li>
     </ul>
+
+    <button id="themeToggle" class="theme-toggle" title="Toggle light/dark theme">
+        <i class="fas fa-sun"></i>
+    </button>
 
 </nav>
 
@@ -274,6 +279,36 @@
 
 </section>
 
+<!-- LIVE STATS BAR -->
+
+<section class="live-stats-bar">
+
+    <div class="live-stat">
+        <i class="fas fa-comments"></i>
+        <span id="liveTotalQueries">0</span>
+        <small>Queries Answered</small>
+    </div>
+
+    <div class="live-stat">
+        <i class="fas fa-stopwatch"></i>
+        <span id="liveAvgTime">0.0s</span>
+        <small>Avg Response Time</small>
+    </div>
+
+    <div class="live-stat">
+        <i class="fas fa-file-pdf"></i>
+        <span id="liveDocCount">0</span>
+        <small>Documents Indexed</small>
+    </div>
+
+    <div class="live-stat">
+        <i class="fas fa-bolt"></i>
+        <span id="liveLastConfidence">—</span>
+        <small>Last Confidence</small>
+    </div>
+
+</section>
+
 <!-- CHAT -->
 
 <section id="chat" class="chat-section">
@@ -281,6 +316,8 @@
     <h2 class="section-title">
         AI Chat Workspace
     </h2>
+
+    <div class="chat-layout">
 
     <div class="chat-container">
 
@@ -290,9 +327,81 @@
                 RAG Assistant
             </h3>
 
-            <div id="api-status">
-                Checking...
+            <div class="chat-header-actions">
+
+                <button id="settingsToggleBtn" class="chat-icon-btn" title="Retrieval settings">
+                    <i class="fas fa-sliders"></i>
+                </button>
+
+                <button id="exportChatBtn" class="chat-icon-btn" title="Export conversation">
+                    <i class="fas fa-download"></i>
+                </button>
+
+                <button id="clearChatBtn" class="chat-icon-btn" title="Clear conversation">
+                    <i class="fas fa-trash"></i>
+                </button>
+
+                <div id="api-status">
+                    Checking...
+                </div>
+
             </div>
+
+        </div>
+
+        <!-- ADJUSTABLE RETRIEVAL SETTINGS PANEL -->
+
+        <div id="settingsPanel" class="settings-panel" hidden>
+
+            <div class="settings-row">
+
+                <label for="retrievalMode">Retrieval Mode</label>
+
+                <select id="retrievalMode">
+                    <option value="hybrid" selected>Hybrid (FAISS + BM25 + RRF)</option>
+                    <option value="faiss">FAISS only (dense/semantic)</option>
+                    <option value="bm25">BM25 only (keyword)</option>
+                </select>
+
+            </div>
+
+            <div class="settings-row">
+
+                <label for="topKFinal">Top-K Results: <span id="topKFinalValue">5</span></label>
+
+                <input type="range" id="topKFinal" min="1" max="10" value="5">
+
+            </div>
+
+            <div class="settings-row settings-row-toggle">
+
+                <label for="useReranker">Cross-Encoder Reranking</label>
+
+                <input type="checkbox" id="useReranker" checked>
+
+            </div>
+
+            <div class="settings-row settings-row-toggle">
+
+                <label for="enableQueryRewrite">Query Rewriting</label>
+
+                <input type="checkbox" id="enableQueryRewrite" checked>
+
+            </div>
+
+            <div class="settings-row settings-row-toggle">
+
+                <label for="enableGroundedness">Hallucination Check</label>
+
+                <input type="checkbox" id="enableGroundedness" checked>
+
+            </div>
+
+            <p class="settings-note">
+                These settings apply to your next question. Disabling
+                reranking will show approximate confidence scores
+                instead of true relevance scores.
+            </p>
 
         </div>
 
@@ -324,6 +433,65 @@
             </button>
 
         </form>
+
+    </div>
+
+    <!-- DOCUMENT LIBRARY SIDEBAR -->
+
+    <div class="doc-sidebar">
+
+        <div class="doc-sidebar-header">
+            <i class="fas fa-folder-open"></i>
+            Document Library
+        </div>
+
+        <div id="docLibraryList" class="doc-sidebar-list">
+
+            <div class="doc-sidebar-empty">
+                No documents uploaded yet.
+                Upload a PDF to get started.
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</section>
+
+<!-- EVALUATION DASHBOARD -->
+
+<section id="evaluation" class="eval-section">
+
+    <h2 class="section-title">
+        Retrieval Evaluation
+    </h2>
+
+    <div class="eval-container">
+
+        <div class="eval-header">
+
+            <p>
+                Offline retrieval-quality metrics computed against
+                a labeled test set (<code>evaluation/qa_pairs.json</code>).
+            </p>
+
+            <button id="runEvalBtn" class="btn-primary">
+                <i class="fas fa-flask"></i> Run Evaluation
+            </button>
+
+        </div>
+
+        <div id="evalResults" class="eval-results">
+
+            <div class="eval-empty">
+                No evaluation results yet. Click "Run Evaluation"
+                to test retrieval quality against your labeled
+                question set.
+            </div>
+
+        </div>
 
     </div>
 
