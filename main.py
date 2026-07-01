@@ -69,7 +69,6 @@ class QuestionRequest(BaseModel):
 
 @app.get("/")
 def home():
-
     return {
         "status": "running",
         "message": "Advanced RAG API is active",
@@ -82,20 +81,14 @@ def home():
 
 @app.get("/ui")
 def ui():
-
-    return FileResponse(
-        "frontend/index.html"
-    )
+    return FileResponse("frontend/index.html")
 
 # ============================================================
 # CHAT ENDPOINT
 # ============================================================
 
 @app.post("/chat")
-def chat_endpoint(
-    request: QuestionRequest
-):
-
+def chat_endpoint(request: QuestionRequest):
     result = ask_rag(
         request.question,
         retrieval_mode=request.retrieval_mode,
@@ -120,10 +113,7 @@ def chat_endpoint(
         "was_rewritten": result.get("was_rewritten", False),
         "grounded": result.get("grounded", True),
         "groundedness_explanation": result.get("groundedness_explanation"),
-        "total_queries": result.get(
-            "total_queries",
-            0
-        )
+        "total_queries": result.get("total_queries", 0)
     }
 
 # ============================================================
@@ -132,7 +122,6 @@ def chat_endpoint(
 
 @app.get("/health")
 def health_check():
-
     return {
         "status": "healthy",
         "version": "3.0.0"
@@ -144,7 +133,6 @@ def health_check():
 
 @app.get("/info")
 def info():
-
     return {
         "project": "Advanced RAG System",
         "version": "3.0.0",
@@ -171,7 +159,6 @@ def info():
 
 @app.get("/status")
 def status():
-
     return {
         "server": "online",
         "api": "working",
@@ -187,19 +174,12 @@ def status():
 
 @app.get("/evaluation/results")
 def get_evaluation_results():
-    """
-    Returns the most recently saved evaluation run
-    (evaluation/last_run_results.json), produced by running:
-        python evaluation/run_eval.py
-    """
-
     import json
     from pathlib import Path
 
     results_path = Path("evaluation/last_run_results.json")
 
     if not results_path.exists():
-
         return {
             "status": "no_results",
             "message": (
@@ -210,7 +190,6 @@ def get_evaluation_results():
         }
 
     with open(results_path, "r", encoding="utf-8") as f:
-
         data = json.load(f)
 
     return {
@@ -221,12 +200,6 @@ def get_evaluation_results():
 
 @app.post("/evaluation/run")
 def run_evaluation():
-    """
-    Runs the evaluation suite live (against evaluation/qa_pairs.json)
-    and returns fresh results. This re-runs retrieval for every
-    labeled question, so it can take a while with many test cases.
-    """
-
     from evaluation.run_eval import load_qa_pairs, evaluate
     from pathlib import Path
     import json
@@ -234,14 +207,12 @@ def run_evaluation():
     dataset_path = Path("evaluation/qa_pairs.json")
 
     if not dataset_path.exists():
-
         return {
             "status": "error",
             "message": "evaluation/qa_pairs.json not found"
         }
 
     qa_pairs = load_qa_pairs(dataset_path)
-
     summary, results = evaluate(qa_pairs, top_k=5)
 
     output = {
@@ -252,7 +223,6 @@ def run_evaluation():
     output_path = Path("evaluation/last_run_results.json")
 
     with open(output_path, "w", encoding="utf-8") as f:
-
         json.dump(output, f, indent=2)
 
     return {
@@ -266,23 +236,27 @@ def run_evaluation():
 
 @app.on_event("startup")
 async def startup_event():
-
     import os
-
     print("\n" + "=" * 60)
     print("Advanced RAG API Started")
     print("Swagger : http://127.0.0.1:8000/docs")
     print("UI      : http://127.0.0.1:8000/ui")
 
     if os.environ.get("GROQ_API_KEY"):
-
         print("Groq API key: loaded OK")
-
     else:
-
-        print(
-            "WARNING: GROQ_API_KEY not found in environment. "
-            "Check your .env file exists and is in the project root."
-        )
+        print("WARNING: GROQ_API_KEY not found in environment. "
+              "Check your .env file exists and is in the project root.")
 
     print("=" * 60)
+
+# ============================================================
+# ENTRY POINT FOR RENDER
+# ============================================================
+
+if __name__ == "__main__":
+    import os
+    import uvicorn
+
+    port = int(os.environ.get("PORT", 8000))  # Render sets PORT automatically
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
